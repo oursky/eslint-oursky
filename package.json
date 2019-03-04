@@ -1,0 +1,34 @@
+{
+  "name": "@oursky/eslint-config",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:oursky/eslint-oursky.git",
+  "author": "<louischan@oursky.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "print": "eslint --config index.js --print-config index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.4.2",
+    "@typescript-eslint/parser": "^1.4.2",
+    "eslint": "^5.15.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.4.0",
+    "eslint-plugin-react-native": "^3.6.0",
+    "typescript": "^3.3.3333"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.4.2",
+    "@typescript-eslint/parser": "^1.4.2",
+    "eslint": "^5.15.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.4.0",
+    "eslint-plugin-react-native": "^3.6.0",
+    "typescript": "^3.3.3333"
+  }
+}
