@@ -23,7 +23,8 @@ module.exports = {
   },
   settings: {
     react: {
-      version: "16.0",
+      // <></> is available from 16.2
+      version: "16.2",
     },
     linkComponents: [
       {
@@ -34,8 +35,11 @@ module.exports = {
   },
   rules: {
     // typescript
+    "@typescript-eslint/class-name-casing": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/no-extraneous-class": "error",
     "@typescript-eslint/no-for-in-array": "error",
     "@typescript-eslint/no-this-alias": "error",
@@ -48,6 +52,7 @@ module.exports = {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
     // react
+    "react/display-name": "off",
     "react/no-access-state-in-setstate": "error",
     "react/no-redundant-should-component-update": "error",
     "react/no-typos": "error",
