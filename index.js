@@ -20,6 +20,7 @@ module.exports = {
     node: true,
     commonjs: true,
     jest: true,
+    es6: true,
   },
   settings: {
     react: {
@@ -35,6 +36,7 @@ module.exports = {
   },
   rules: {
     // typescript
+    "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/class-name-casing": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-member-accessibility": "off",
@@ -53,6 +55,7 @@ module.exports = {
     "react-hooks/exhaustive-deps": "error",
     // react
     "react/display-name": "off",
+    "react/prop-types": "off",
     "react/no-access-state-in-setstate": "error",
     "react/no-redundant-should-component-update": "error",
     "react/no-typos": "error",
