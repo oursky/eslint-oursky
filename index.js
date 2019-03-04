@@ -34,6 +34,8 @@ module.exports = {
   },
   rules: {
     // typescript
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-member-accessibility": "off",
     "@typescript-eslint/no-extraneous-class": "error",
     "@typescript-eslint/no-for-in-array": "error",
     "@typescript-eslint/no-this-alias": "error",
@@ -66,6 +68,5 @@ module.exports = {
     // react-native
     "react-native/no-unused-styles": "error",
     "react-native/no-inline-styles": "error",
-    "react-native/no-raw-text": "error",
   },
 };
