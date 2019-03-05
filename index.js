@@ -42,7 +42,6 @@ module.exports = {
     "no-prototype-builtins": "error",
     "no-template-curly-in-string": "error",
     "require-atomic-updates": "error",
-    "class-methods-use-this": "error",
     "complexity": "error",
     "default-case": "error",
     "guard-for-in": "error",
