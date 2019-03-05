@@ -36,6 +36,9 @@ module.exports = {
   },
   rules: {
     // bundled
+    "no-empty": ["error", {
+      allowEmptyCatch: true,
+    }],
     "no-async-promise-executor": "error",
     "no-await-in-loop": "error",
     "no-misleading-character-class": "error",
