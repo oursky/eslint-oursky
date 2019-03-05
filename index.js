@@ -106,6 +106,11 @@ module.exports = {
     "@typescript-eslint/no-unnecessary-qualifier": "error",
     "@typescript-eslint/no-unnecessary-type-assertion": "error",
     "@typescript-eslint/no-useless-constructor": "error",
+    "@typescript-eslint/no-unused-vars": ["error", {
+      args: "all",
+      ignoreRestSiblings: true,
+      argsIgnorePattern: "^_",
+    }],
     "@typescript-eslint/prefer-function-type": "error",
     "@typescript-eslint/restrict-plus-operands": "error",
     // react-hooks
