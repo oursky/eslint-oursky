@@ -36,6 +36,9 @@ module.exports = {
   },
   rules: {
     // bundled
+    "no-constant-condition": ["error", {
+      checkLoops: false,
+    }],
     "no-empty": ["error", {
       allowEmptyCatch: true,
     }],
