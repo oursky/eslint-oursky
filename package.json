@@ -6,7 +6,8 @@
   "author": "<louischan@oursky.com>",
   "license": "Apache-2.0",
   "scripts": {
-    "print": "eslint --config index.js --print-config index.js"
+    "print": "eslint --config index.js --print-config index.js",
+    "test": "eslint --config index.js index.js"
   },
   "files": [
     "index.js"
