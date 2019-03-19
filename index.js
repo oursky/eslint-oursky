@@ -99,6 +99,9 @@ module.exports = {
     "no-var": "error",
     "prefer-const": "error",
     "prefer-rest-params": "error",
+    "eqeqeq": ["error", "always", {
+      null: "ignore"
+    }],
     // typescript
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/class-name-casing": "off",
