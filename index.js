@@ -89,7 +89,6 @@ module.exports = {
     "no-shadow-restricted-names": "error",
     "no-undef-init": "error",
     "no-use-before-define": "error",
-    "callback-return": "error",
     "handle-callback-err": "error",
     "no-buffer-constructor": "error",
     "no-mixed-requires": "error",
