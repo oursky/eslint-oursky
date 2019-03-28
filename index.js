@@ -35,7 +35,7 @@ module.exports = {
     ],
   },
   rules: {
-    // bundled
+    // Turn on some rules that are not included in recommended
     "no-constant-condition": ["error", {
       checkLoops: false,
     }],
@@ -91,7 +91,6 @@ module.exports = {
     "no-label-var": "error",
     "no-shadow-restricted-names": "error",
     "no-undef-init": "error",
-    "no-use-before-define": "error",
     "handle-callback-err": "error",
     "no-buffer-constructor": "error",
     "no-mixed-requires": "error",
@@ -117,6 +116,12 @@ module.exports = {
     "@typescript-eslint/no-unnecessary-qualifier": "error",
     "@typescript-eslint/no-unnecessary-type-assertion": "error",
     "@typescript-eslint/no-useless-constructor": "error",
+    "@typescript-eslint/no-use-before-define": ["error", {
+      functions: false,
+      classes: true,
+      variables: true,
+      typedefs: false,
+    }],
     "@typescript-eslint/no-unused-vars": ["error", {
       args: "all",
       ignoreRestSiblings: true,
