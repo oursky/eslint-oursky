@@ -127,7 +127,6 @@ module.exports = {
       ignoreRestSiblings: true,
       argsIgnorePattern: "^_",
     }],
-    "@typescript-eslint/restrict-plus-operands": "error",
     // react-hooks
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
