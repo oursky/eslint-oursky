@@ -69,7 +69,6 @@ module.exports = {
     "no-new-func": "error",
     "no-new-wrappers": "error",
     "no-octal": "error",
-    "no-param-reassign": "error",
     "no-proto": "error",
     "no-return-assign": "error",
     "no-return-await": "error",
