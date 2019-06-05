@@ -86,7 +86,11 @@ module.exports = {
     "no-with": "error",
     "prefer-promise-reject-errors": "error",
     "radix": "error",
-    "require-await": "error",
+    // We assume the user is using TypeScript with
+    // strictest settings.
+    // An async function without await is not a
+    // problem.
+    "require-await": "off",
     "no-label-var": "error",
     "no-shadow-restricted-names": "error",
     "no-undef-init": "error",
