@@ -131,6 +131,10 @@ module.exports = {
       argsIgnorePattern: "^_",
     }],
     "@typescript-eslint/unified-signatures": "error",
+    "@typescript-eslint/await-thenable": "error",
+    "@typescript-eslint/unbound-method": ["error", {
+      ignoreStatic: true,
+    }],
     // react-hooks
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
