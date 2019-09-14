@@ -18,7 +18,7 @@
     "eslint": "^5.12.0",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^1.4.0",
+    "eslint-plugin-react-hooks": "^2.0.1",
     "eslint-plugin-react-native": "^3.6.0",
     "typescript": "^3.3.3333"
   },
@@ -28,7 +28,7 @@
     "eslint": "^5.12.0",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^1.4.0",
+    "eslint-plugin-react-hooks": "^2.0.1",
     "eslint-plugin-react-native": "^3.6.0",
     "typescript": "^3.3.3333"
   }
