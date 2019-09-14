@@ -138,6 +138,7 @@ module.exports = {
     "@typescript-eslint/prefer-regexp-exec": "error",
     "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
     "@typescript-eslint/no-floating-promises": "error",
+    "@typescript-eslint/strict-boolean-expressions": "error",
     // react-hooks
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
