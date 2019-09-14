@@ -135,6 +135,7 @@ module.exports = {
     "@typescript-eslint/unbound-method": ["error", {
       ignoreStatic: true,
     }],
+    "@typescript-eslint/prefer-regexp-exec": "error",
     // react-hooks
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
