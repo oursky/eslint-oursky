@@ -130,6 +130,7 @@ module.exports = {
       ignoreRestSiblings: true,
       argsIgnorePattern: "^_",
     }],
+    "@typescript-eslint/unified-signatures": "error",
     // react-hooks
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
