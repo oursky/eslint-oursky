@@ -139,6 +139,7 @@ module.exports = {
     "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
     "@typescript-eslint/no-floating-promises": "error",
     "@typescript-eslint/strict-boolean-expressions": "error",
+    "@typescript-eslint/no-misused-promises": "error",
     // react-hooks
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
