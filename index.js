@@ -217,6 +217,7 @@ module.exports = {
     "@typescript-eslint/no-floating-promises": "error",
     "@typescript-eslint/strict-boolean-expressions": ["error", {
       allowNullable: true,
+      ignoreRhs: true,
     }],
     // react-hooks
     "react-hooks/rules-of-hooks": "error",
