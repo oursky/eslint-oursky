@@ -86,7 +86,7 @@ module.exports = {
     "use-isnan": "error",
     "valid-typeof": "error",
     // not from recommended
-    // TODO: enable this
+    // TODO: enable this when ESLint >= 6.4.0
     // "no-import-assign": "error",
     "no-template-curly-in-string": "error",
     "complexity": "error",
