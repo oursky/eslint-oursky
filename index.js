@@ -192,6 +192,8 @@ module.exports = {
     "react/jsx-no-comment-textnodes": "error",
     "react/jsx-no-duplicate-props": "error",
     "react/jsx-no-target-blank": "error",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
     "react/no-children-prop": "error",
     "react/no-danger-with-children": "error",
     "react/no-deprecated": "error",
