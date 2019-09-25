@@ -1,14 +1,9 @@
 ## Installation
 
 ```sh
-yarn add --dev --exact \
-  eslint \
-  eslint-plugin-react \
-  eslint-plugin-react-hooks \
-  eslint-plugin-react-native \
-  @typescript-eslint/eslint-plugin \
-  @typescript-eslint/parser \
-  @oursky/eslint-config
+yarn add --dev --exact eslint @oursky/eslint-config
+# or
+npm install --save --save-dev --save-exact eslint @oursky/eslint-config
 ```
 
 ## Usage
