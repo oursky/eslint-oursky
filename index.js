@@ -44,6 +44,7 @@ module.exports = {
     "react",
     "react-hooks",
     "react-native",
+    "eslint-plugin-tsdoc",
   ],
   env: {
     browser: true,
@@ -261,5 +262,7 @@ module.exports = {
     "react/jsx-fragments": "error",
     // react-native
     "react-native/no-unused-styles": "error",
+    // tsdoc
+    "tsdoc/syntax": "error",
   },
 };

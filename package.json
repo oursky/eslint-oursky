@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "eslint": "^6.6.0",
+    "eslint-plugin-tsdoc": "0.2.0",
     "typescript": "^3.2.1"
   },
   "peerDependencies": {
