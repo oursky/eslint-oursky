@@ -1,14 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES5",
+    "target": "es2017",
     "module": "commonjs",
     "lib": [
+      "DOM",
       "ES5",
       "ES2015.Promise",
       "ES2015.Collection",
       "ES2016.Array.Include"
     ],
-    "jsx": "React",
+    "jsx": "react",
     "noEmit": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -19,5 +20,6 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "resolveJsonModule": true
-  }
+  },
+  "exclude": ["node_modules", "**/*.test.ts"]
 }

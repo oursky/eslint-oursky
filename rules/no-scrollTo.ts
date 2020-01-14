@@ -1,10 +1,8 @@
 import {
-  TSESTree,
-  TSESLint,
   AST_NODE_TYPES,
 } from '@typescript-eslint/experimental-utils';
-import * as tsutils from 'tsutils';
-import ts, { isConstructorDeclaration } from 'typescript';
+// import * as tsutils from 'tsutils';
+import ts from 'typescript';
 
 import * as util from '../util';
 
@@ -20,7 +18,7 @@ export default util.createRule({
     },
     schema: [],
     messages: {
-      'scrollTo-found': 'Please dont use scollto'
+      'scrollTo-found': 'scrollTo is not well supported, use scrollTop instead'
     }
   },
   defaultOptions: [],
@@ -28,22 +26,41 @@ export default util.createRule({
     const parserServices = util.getParserServices(context);
     const checker = parserServices.program.getTypeChecker();
     return {
-      CallExpression(node: TSESTree.CallExpression) {
-        // const signature = checker.getResolvedSignature(node)
-
-        // if (signature) {
-        //   const declaration = signature.declaration
-        // }
-        console.log('node? ', node)
-
-        checker.getTypeAtLocation(node.callee). .aliasSymbol == ts.Symbol
+      MemberExpression(node) {
+        if (
+          node.object.type === AST_NODE_TYPES.Identifier &&
+          node.object.name === 'window'
+        ) {
+          if (
+            node.property.type === AST_NODE_TYPES.Identifier &&
+            node.property.name === 'scrollTo'
+          ) {
+            context.report({
+              node,
+              messageId: 'scrollTo-found',
+            });
+          }
+        }
       },
-      
-      'ArrowFunctionExpression'(
-        node: TSESTree.ArrowFunctionExpression,
-      ): void {
-      },
-      'TS'
+      CallExpression(node) {
+        if (
+          node.callee.type === AST_NODE_TYPES.Identifier &&
+          node.callee.name === 'scrollTo'
+        ) {
+          const originalNode = parserServices.esTreeNodeToTSNodeMap.get<
+            ts.CallExpression
+          >(node);
+
+          const type = checker.getTypeAtLocation(originalNode.expression);
+
+          console.log('=== type of expression 2', type, checker.typeToString(type));
+
+          context.report({
+            node,
+            messageId: 'scrollTo-found',
+          });
+        }
+      }
     }
   }
 })
