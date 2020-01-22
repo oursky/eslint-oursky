@@ -79,6 +79,9 @@ module.exports = {
     }],
     // We use @typescript-eslint/no-unused-vars
     "no-unused-vars": "off",
+    "no-empty": ["error", {
+      allowEmptyCatch: true,
+    }],
     // not from recommended
     "complexity": "error",
     "consistent-return": "error",
