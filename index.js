@@ -77,6 +77,8 @@ module.exports = {
     "no-fallthrough": ["error", {
       commentPattern: "fallthrough",
     }],
+    // We use @typescript-eslint/no-unused-vars
+    "no-unused-vars": "off",
     // not from recommended
     "complexity": "error",
     "consistent-return": "error",
@@ -148,9 +150,12 @@ module.exports = {
     "@typescript-eslint/no-namespace": "error",
     "@typescript-eslint/no-this-alias": "error",
     "@typescript-eslint/no-unused-vars": ["error", {
-      args: "all",
+      varsIgnorePattern: "^_",
       ignoreRestSiblings: true,
+      args: "all",
       argsIgnorePattern: "^_",
+      caughtErrors: "all",
+      caughtErrorsIgnorePattern: "^_",
     }],
     "@typescript-eslint/no-use-before-define": ["error", {
       functions: false,
