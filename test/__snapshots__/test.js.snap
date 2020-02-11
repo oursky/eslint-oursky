@@ -1,5 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`no-scrollTo.ts 1`] = `""`;
+
 exports[`simple.ts 1`] = `
 "src/simple.ts:1:1: Unexpected var, use let or const instead. [Error/no-var]
 src/simple.ts:1:5: 'a' is assigned a value but never used. Allowed unused vars must match /^_/u. [Error/@typescript-eslint/no-unused-vars]

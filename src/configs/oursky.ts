@@ -1,5 +1,6 @@
 export default {
+  plugins: ["oursky"],
   rules: {
-    // Add rules here.
+    "oursky/no-scrollTo": ["error"]
   },
 };

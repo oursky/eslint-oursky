@@ -6,6 +6,7 @@
   "author": "<louischan@oursky.com>",
   "license": "Apache-2.0",
   "scripts": {
+    "build": "rollup -c",
     "test": "cd test && npm test",
     "typecheck": "tsc --noEmit",
     "format": "prettier --write --list-different 'src/**/*.{js,jsx,ts,tsx}'"

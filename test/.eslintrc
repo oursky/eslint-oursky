@@ -8,6 +8,9 @@
     "plugin:@oursky/oursky"
   ],
   "plugins": ["@oursky"],
+  "env": {
+    "browser": true
+  },
   "parserOptions": {
     "sourceType": "module",
     "project": "./tsconfig.json"
