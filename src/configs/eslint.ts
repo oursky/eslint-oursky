@@ -15,7 +15,7 @@ export default {
       },
     ],
     // not from recommended
-    complexity: "error",
+    complexity: ["error", { "max": 10 }],
     "consistent-return": "error",
     "default-case": "error",
     "default-param-last": "error",
