@@ -3,6 +3,14 @@
 exports[`simple.ts 1`] = `
 "src/simple.ts:1:1: Unexpected var, use let or const instead. [Error/no-var]
 src/simple.ts:1:5: 'a' is assigned a value but never used. Allowed unused vars must match /^_/u. [Error/@typescript-eslint/no-unused-vars]
+src/simple.ts:1:8: Expected a \`const\` assertion instead of a literal type annotation [Error/@typescript-eslint/prefer-as-const]
+src/simple.ts:6:11: Switch is not exhaustive. Cases not matched: \\"b\\" [Error/@typescript-eslint/switch-exhaustiveness-check]
+src/simple.ts:14:3: Unsafe return of an any typed value [Error/@typescript-eslint/no-unsafe-return]
+src/simple.ts:19:9: Unsafe assignment of an any value [Error/@typescript-eslint/no-unsafe-assignment]
+src/simple.ts:25:3: Expected an assignment or function call and instead saw an expression. [Error/no-unused-expressions]
+src/simple.ts:25:3: Unsafe member access .foobar on an any value [Error/@typescript-eslint/no-unsafe-member-access]
+src/simple.ts:26:3: Unsafe member access .foobar on an any value [Error/@typescript-eslint/no-unsafe-member-access]
+src/simple.ts:26:3: Unsafe call of an any typed value [Error/@typescript-eslint/no-unsafe-call]
 
-2 problems"
+10 problems"
 `;

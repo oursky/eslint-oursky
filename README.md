@@ -45,3 +45,8 @@ npm upgrade \
   }
 }
 ```
+
+## TODO
+
+method-signature-style error https://github.com/typescript-eslint/typescript-eslint/pull/1685
+prefer-ts-expect-error error https://github.com/typescript-eslint/typescript-eslint/pull/1705
