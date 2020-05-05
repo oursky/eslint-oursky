@@ -4,6 +4,10 @@
     "target": "ES5",
     "module": "ES2015",
     "moduleResolution": "Node",
+    // typescript-eslint is written against ES2017 while our codebase is written against "lib".
+    // When they introduce something that is only available in ES2017, typechecking their code will definitely fail.
+    // Therefore, we skip typechecking *.d.ts with skipLibCheck.
+    "skipLibCheck": true,
     "lib": ["ES5", "ES2015.Promise", "ES2015.Collection", "ES2015.Iterable"],
     "types": [],
     "jsx": "React",
