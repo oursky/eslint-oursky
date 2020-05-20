@@ -1,0 +1,7 @@
+react-native/no-color-literals
+react-native/no-inline-styles
+react-native/no-raw-text
+react-native/no-single-element-style-arrays
+react-native/no-unused-styles
+react-native/sort-styles
+react-native/split-platform-components
