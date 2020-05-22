@@ -12,9 +12,7 @@ const plugins = [
   resolve({
     extensions,
   }),
-  commonjs({
-    include: "node_modules/**",
-  }),
+  commonjs({}),
   babel({
     extensions,
     exclude: "node_modules/**",
@@ -42,7 +40,7 @@ function makeExternal() {
 export default {
   plugins,
   external: makeExternal(),
-  input: "src/index.ts",
+  input: "src/index.js",
   output: {
     file: "dist/index.js",
     format: "cjs",
