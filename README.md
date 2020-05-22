@@ -1,48 +1,33 @@
 ## Installation
 
 ```sh
-npm install --save --save-dev --save-exact \
-  eslint@6.x \
-  @typescript-eslint/eslint-plugin@2.x \
-  @typescript-eslint/parser@2.x \
-  eslint-plugin-react@7.x \
-  eslint-plugin-react-hooks@2.x \
-  eslint-plugin-react-native@3.x \
-  eslint-plugin-tsdoc@0.2.1 \
-  @oursky/eslint-plugin
-```
-
-## Upgrade
-
-```sh
-npm upgrade \
-  eslint \
-  @typescript-eslint/eslint-plugin \
-  @typescript-eslint/parser \
-  eslint-plugin-react \
-  eslint-plugin-react-hooks \
-  eslint-plugin-react-native \
-  eslint-plugin-tsdoc \
-  @oursky/eslint-plugin
+npm install --save --save-dev --save-exact eslint@7.x @oursky/eslint-plugin
 ```
 
 ## Usage
 
-```JSON
+In your `.eslintrc`
+
+```javascript
 {
   "plugins": ["@oursky"],
-  "extends": [
-    "plugin:@oursky/eslint",
-    "plugin:@oursky/typescript",
-    "plugin:@oursky/react",
-    "plugin:@oursky/react-hooks",
-    "plugin:@oursky/react-native",
-    "plugin:@oursky/oursky"
-  ],
+  // If you are using TypeScript, you need to configure parserOptions.
   "parserOptions": {
     "sourceType": "module",
     "project": "./tsconfig.json"
-  }
+  },
+  "extends": [
+    // You should always include these two.
+    "plugin:@oursky/eslint",
+    "plugin:@oursky/oursky",
+    // Include this if you are using TypeScript.
+    "plugin:@oursky/typescript",
+    // Include these two if your project is React.
+    "plugin:@oursky/react",
+    "plugin:@oursky/react-hooks",
+    // Include this if your project is React Native.
+    "plugin:@oursky/react-native"
+  ]
 }
 ```
 
