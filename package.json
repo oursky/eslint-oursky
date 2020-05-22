@@ -15,14 +15,13 @@
     "dist"
   ],
   "dependencies": {
-    "@typescript-eslint/experimental-utils": "2.34.0",
-    "@typescript-eslint/eslint-plugin": "2.34.0",
-    "@typescript-eslint/parser": "2.34.0",
-    "core-js": "3.6.5",
-    "eslint-plugin-react": "7.20.0",
-    "eslint-plugin-react-hooks": "4.0.2",
-    "eslint-plugin-react-native": "3.8.1",
-    "eslint-plugin-tsdoc": "0.2.4"
+    "@typescript-eslint/experimental-utils": "^2.34.0",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.2",
+    "eslint-plugin-react-native": "^3.8.1",
+    "eslint-plugin-tsdoc": "^0.2.4"
   },
   "devDependencies": {
     "@babel/cli": "7.8.4",
