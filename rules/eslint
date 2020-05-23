@@ -125,6 +125,7 @@ no-labels
 no-lone-blocks
 no-lonely-if
 no-loop-func
+no-loss-of-precision
 no-magic-numbers
 no-misleading-character-class
 no-mixed-operators

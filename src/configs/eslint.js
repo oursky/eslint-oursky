@@ -246,6 +246,7 @@ module.exports = {
     "no-label-var": "error",
     "no-lone-blocks": "error",
     "no-loop-func": "error",
+    "no-loss-of-precision": "error",
     "no-mixed-requires": "error",
     "no-multi-str": "error",
     "no-new": "error",
