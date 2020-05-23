@@ -12,7 +12,7 @@ module.exports = {
         "ts-check": false,
       },
     ],
-    "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/ban-types": "error",
     "@typescript-eslint/brace-style": "off",
     "@typescript-eslint/class-literal-property-style": "off",
     "@typescript-eslint/comma-spacing": "off",
@@ -79,7 +79,7 @@ module.exports = {
         allowNumber: true,
         allowBoolean: true,
         allowAny: false,
-        allowNullable: true,
+        allowNullish: true,
       },
     ],
 
@@ -89,8 +89,7 @@ module.exports = {
     "@typescript-eslint/semi": "off",
     "@typescript-eslint/space-before-function-paren": "off",
 
-    // This rule violates javascript idiom.
-    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/strict-boolean-expressions": "error",
     "@typescript-eslint/type-annotation-spacing": "off",
     "@typescript-eslint/typedef": "off",
 
@@ -145,7 +144,7 @@ module.exports = {
     "@typescript-eslint/no-unnecessary-condition": [
       "error",
       {
-        ignoreRhs: true,
+        allowConstantLoopConditions: true,
       },
     ],
     "@typescript-eslint/no-unnecessary-qualifier": "error",
