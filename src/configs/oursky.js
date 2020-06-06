@@ -1,5 +1,6 @@
 module.exports = {
+  // plugins: ["@oursky/eslint-plugin"],
   rules: {
-    // Add rules here.
+    "oursky/no-scrollTo": ["error"],
   },
 };

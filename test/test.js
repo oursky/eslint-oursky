@@ -25,3 +25,4 @@ function runTest(filename) {
 }
 
 runTest("simple.ts");
+runTest("no-scrollTo.ts");

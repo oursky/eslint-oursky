@@ -6,6 +6,8 @@ const reactNative = require("./configs/reactnative");
 const tsdoc = require("./configs/tsdoc");
 const oursky = require("./configs/oursky");
 
+const rules = require('./rules');
+
 module.exports = {
   configs: {
     eslint,
@@ -16,4 +18,5 @@ module.exports = {
     "react-hooks": reactHooks,
     "react-native": reactNative,
   },
+  rules,
 };
