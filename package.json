@@ -33,13 +33,13 @@
     "@rollup/plugin-json": "4.1.0",
     "@rollup/plugin-node-resolve": "8.0.1",
     "builtins": "3.0.1",
-    "eslint": "7.1.0",
+    "eslint": "7.2.0",
     "prettier": "2.0.5",
     "rollup": "2.15.0",
     "rollup-plugin-babel": "4.4.0",
     "typescript": "3.9.5"
   },
   "peerDependencies": {
-    "eslint": "^7.1.0"
+    "eslint": "^7.2.0"
   }
 }
