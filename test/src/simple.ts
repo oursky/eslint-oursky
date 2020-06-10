@@ -8,21 +8,3 @@ export function testSwitch(a: A) {
       break;
   }
 }
-
-export function unsafeReturn(): number {
-  const a: any = 1;
-  return a;
-}
-
-export function unsafeAssignment(): number {
-  const a: any = 1;
-  const b: number = a;
-  return b;
-}
-
-export function unsafeMemberAccessAndCall(): number {
-  const a: any = 1;
-  a.foobar;
-  a.foobar();
-  return 1;
-}

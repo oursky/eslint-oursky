@@ -36,7 +36,7 @@ module.exports = {
     "@typescript-eslint/no-dynamic-delete": "off",
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/no-empty-interface": "off",
-    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-extra-non-null-assertion": "error",
     "@typescript-eslint/no-extra-parens": "off",
     "@typescript-eslint/no-extra-semi": "off",
@@ -89,7 +89,7 @@ module.exports = {
     "@typescript-eslint/semi": "off",
     "@typescript-eslint/space-before-function-paren": "off",
 
-    "@typescript-eslint/strict-boolean-expressions": "error",
+    "@typescript-eslint/strict-boolean-expressions": "off",
     "@typescript-eslint/type-annotation-spacing": "off",
     "@typescript-eslint/typedef": "off",
 
@@ -158,10 +158,10 @@ module.exports = {
     "default-case": "off",
     "@typescript-eslint/switch-exhaustiveness-check": "error",
     "@typescript-eslint/no-base-to-string": "error",
-    "@typescript-eslint/no-unsafe-call": "error",
-    "@typescript-eslint/no-unsafe-member-access": "error",
-    "@typescript-eslint/no-unsafe-return": "error",
-    "@typescript-eslint/no-unsafe-assignment": "error",
+    "@typescript-eslint/no-unsafe-call": "off",
+    "@typescript-eslint/no-unsafe-member-access": "off",
+    "@typescript-eslint/no-unsafe-return": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off",
     "@typescript-eslint/prefer-reduce-type-parameter": "error",
   },
 };
