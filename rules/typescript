@@ -2,6 +2,7 @@
 @typescript-eslint/array-type
 @typescript-eslint/await-thenable
 @typescript-eslint/ban-ts-comment
+@typescript-eslint/ban-tslint-comment
 @typescript-eslint/ban-types
 @typescript-eslint/brace-style
 @typescript-eslint/class-literal-property-style
@@ -24,6 +25,7 @@
 @typescript-eslint/naming-convention
 @typescript-eslint/no-array-constructor
 @typescript-eslint/no-base-to-string
+@typescript-eslint/no-confusing-non-null-assertion
 @typescript-eslint/no-dupe-class-members
 @typescript-eslint/no-dynamic-delete
 @typescript-eslint/no-empty-function
