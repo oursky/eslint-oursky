@@ -41,6 +41,7 @@
 @typescript-eslint/no-inferrable-types
 @typescript-eslint/no-invalid-this
 @typescript-eslint/no-invalid-void-type
+@typescript-eslint/no-loss-of-precision
 @typescript-eslint/no-magic-numbers
 @typescript-eslint/no-misused-new
 @typescript-eslint/no-misused-promises
@@ -68,9 +69,11 @@
 @typescript-eslint/no-useless-constructor
 @typescript-eslint/no-var-requires
 @typescript-eslint/prefer-as-const
+@typescript-eslint/prefer-enum-initializers
 @typescript-eslint/prefer-for-of
 @typescript-eslint/prefer-function-type
 @typescript-eslint/prefer-includes
+@typescript-eslint/prefer-literal-enum-member
 @typescript-eslint/prefer-namespace-keyword
 @typescript-eslint/prefer-nullish-coalescing
 @typescript-eslint/prefer-optional-chain

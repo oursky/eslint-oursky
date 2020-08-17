@@ -39,7 +39,7 @@ generator-star-spacing
 getter-return
 grouped-accessor-pairs
 guard-for-in
-id-blacklist
+id-denylist
 id-length
 id-match
 implicit-arrow-linebreak
@@ -146,6 +146,7 @@ no-octal
 no-octal-escape
 no-param-reassign
 no-plusplus
+no-promise-executor-return
 no-proto
 no-prototype-builtins
 no-redeclare
@@ -179,6 +180,7 @@ no-unexpected-multiline
 no-unmodified-loop-condition
 no-unneeded-ternary
 no-unreachable
+no-unreachable-loop
 no-unsafe-finally
 no-unsafe-negation
 no-unused-expressions
