@@ -24,20 +24,20 @@
     "eslint-plugin-tsdoc": "^0.2.5"
   },
   "devDependencies": {
-    "@babel/cli": "7.10.1",
-    "@babel/core": "7.10.2",
-    "@babel/plugin-proposal-class-properties": "7.10.1",
-    "@babel/plugin-transform-typescript": "7.10.1",
-    "@babel/preset-env": "7.10.2",
-    "@rollup/plugin-commonjs": "13.0.0",
+    "@babel/cli": "7.10.5",
+    "@babel/core": "7.11.1",
+    "@babel/plugin-proposal-class-properties": "7.10.4",
+    "@babel/plugin-transform-typescript": "7.11.0",
+    "@babel/preset-env": "7.11.0",
+    "@rollup/plugin-commonjs": "15.0.0",
     "@rollup/plugin-json": "4.1.0",
-    "@rollup/plugin-node-resolve": "8.0.1",
+    "@rollup/plugin-node-resolve": "9.0.0",
     "builtins": "3.0.1",
     "eslint": "7.2.0",
     "prettier": "2.0.5",
-    "rollup": "2.15.0",
+    "rollup": "2.26.3",
     "rollup-plugin-babel": "4.4.0",
-    "typescript": "3.9.5"
+    "typescript": "3.9.7"
   },
   "peerDependencies": {
     "eslint": "^7.2.0"
