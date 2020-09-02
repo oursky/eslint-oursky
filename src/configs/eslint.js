@@ -166,7 +166,7 @@ module.exports = {
     "no-this-before-super": "error",
     "no-trailing-spaces": "off",
     "no-undef": "error",
-    "no-undefined": "error",
+    "no-undefined": "off",
     "no-underscore-dangle": "off",
     "no-unexpected-multiline": "off",
     "no-unneeded-ternary": "off",
