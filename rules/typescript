@@ -9,6 +9,7 @@
 @typescript-eslint/comma-spacing
 @typescript-eslint/consistent-type-assertions
 @typescript-eslint/consistent-type-definitions
+@typescript-eslint/consistent-type-imports
 @typescript-eslint/default-param-last
 @typescript-eslint/dot-notation
 @typescript-eslint/explicit-function-return-type
@@ -37,6 +38,7 @@
 @typescript-eslint/no-extraneous-class
 @typescript-eslint/no-floating-promises
 @typescript-eslint/no-for-in-array
+@typescript-eslint/no-implicit-any-catch
 @typescript-eslint/no-implied-eval
 @typescript-eslint/no-inferrable-types
 @typescript-eslint/no-invalid-this
@@ -49,7 +51,9 @@
 @typescript-eslint/no-non-null-asserted-optional-chain
 @typescript-eslint/no-non-null-assertion
 @typescript-eslint/no-parameter-properties
+@typescript-eslint/no-redeclare
 @typescript-eslint/no-require-imports
+@typescript-eslint/no-shadow
 @typescript-eslint/no-this-alias
 @typescript-eslint/no-throw-literal
 @typescript-eslint/no-type-alias
@@ -64,7 +68,6 @@
 @typescript-eslint/no-unsafe-return
 @typescript-eslint/no-unused-expressions
 @typescript-eslint/no-unused-vars
-@typescript-eslint/no-unused-vars-experimental
 @typescript-eslint/no-use-before-define
 @typescript-eslint/no-useless-constructor
 @typescript-eslint/no-var-requires

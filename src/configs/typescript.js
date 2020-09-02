@@ -46,6 +46,7 @@ module.exports = {
     "@typescript-eslint/no-extra-non-null-assertion": "error",
     "@typescript-eslint/no-extra-parens": "off",
     "@typescript-eslint/no-extra-semi": "off",
+    "@typescript-eslint/no-implicit-any-catch": "error",
     "@typescript-eslint/no-implied-eval": "error",
     "no-invalid-this": "off",
     "@typescript-eslint/no-invalid-this": "error",
@@ -64,7 +65,9 @@ module.exports = {
     "no-unused-expressions": "off",
     "@typescript-eslint/no-unused-expressions": ["error"],
 
-    "@typescript-eslint/no-unused-vars-experimental": "off",
+    "no-redeclare": "off",
+    "@typescript-eslint/no-redeclare": "error",
+
     "@typescript-eslint/no-var-requires": "error",
     "@typescript-eslint/prefer-for-of": "off",
     "@typescript-eslint/prefer-function-type": "off",
@@ -160,6 +163,7 @@ module.exports = {
     "@typescript-eslint/no-useless-constructor": "error",
     "@typescript-eslint/unified-signatures": "error",
     "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
+    "@typescript-eslint/consistent-type-imports": "error",
     "@typescript-eslint/no-floating-promises": "error",
     "@typescript-eslint/prefer-as-const": "error",
     "@typescript-eslint/prefer-enum-initializers": "error",
@@ -174,5 +178,6 @@ module.exports = {
     "@typescript-eslint/no-unsafe-return": "off",
     "@typescript-eslint/no-unsafe-assignment": "off",
     "@typescript-eslint/prefer-reduce-type-parameter": "error",
+    "@typescript-eslint/no-shadow": "off",
   },
 };
