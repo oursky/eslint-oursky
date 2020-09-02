@@ -163,7 +163,8 @@ module.exports = {
     "@typescript-eslint/no-useless-constructor": "error",
     "@typescript-eslint/unified-signatures": "error",
     "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
-    "@typescript-eslint/consistent-type-imports": "error",
+    // It reports `import React from "react";` as type-only, which is not.
+    "@typescript-eslint/consistent-type-imports": "off",
     "@typescript-eslint/no-floating-promises": "error",
     "@typescript-eslint/prefer-as-const": "error",
     "@typescript-eslint/prefer-enum-initializers": "error",
