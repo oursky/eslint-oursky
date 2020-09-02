@@ -133,7 +133,8 @@ module.exports = {
     "no-lonely-if": "off",
     "no-magic-numbers": "off",
     "no-misleading-character-class": "error",
-    "no-mixed-operators": "error",
+    // Prettier conflicts with this rule.
+    "no-mixed-operators": "off",
     "no-mixed-spaces-and-tabs": "off",
     "no-multi-assign": "off",
     "no-multi-spaces": "off",
