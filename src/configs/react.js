@@ -116,5 +116,8 @@ module.exports = {
     "react/void-dom-elements-no-children": "error",
     "react/jsx-boolean-value": ["error", "always"],
     "react/jsx-fragments": "error",
+    "react/jsx-newline": "off",
+    "react/jsx-no-constructed-context-values": "error",
+    "react/no-unstable-nested-components": "error",
   },
 };
