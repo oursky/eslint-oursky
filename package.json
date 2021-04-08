@@ -15,9 +15,9 @@
     "dist"
   ],
   "dependencies": {
-    "@typescript-eslint/experimental-utils": "^4.0.1",
-    "@typescript-eslint/eslint-plugin": "^4.0.1",
-    "@typescript-eslint/parser": "^4.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/experimental-utils": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-react-hooks": "^4.1.0",
     "eslint-plugin-react-native": "^3.9.1",

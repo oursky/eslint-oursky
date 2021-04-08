@@ -6,7 +6,9 @@
 @typescript-eslint/ban-types
 @typescript-eslint/brace-style
 @typescript-eslint/class-literal-property-style
+@typescript-eslint/comma-dangle
 @typescript-eslint/comma-spacing
+@typescript-eslint/consistent-indexed-object-style
 @typescript-eslint/consistent-type-assertions
 @typescript-eslint/consistent-type-definitions
 @typescript-eslint/consistent-type-imports
@@ -27,7 +29,9 @@
 @typescript-eslint/no-array-constructor
 @typescript-eslint/no-base-to-string
 @typescript-eslint/no-confusing-non-null-assertion
+@typescript-eslint/no-confusing-void-expression
 @typescript-eslint/no-dupe-class-members
+@typescript-eslint/no-duplicate-imports
 @typescript-eslint/no-dynamic-delete
 @typescript-eslint/no-empty-function
 @typescript-eslint/no-empty-interface
@@ -43,6 +47,7 @@
 @typescript-eslint/no-inferrable-types
 @typescript-eslint/no-invalid-this
 @typescript-eslint/no-invalid-void-type
+@typescript-eslint/no-loop-func
 @typescript-eslint/no-loss-of-precision
 @typescript-eslint/no-magic-numbers
 @typescript-eslint/no-misused-new
@@ -62,6 +67,8 @@
 @typescript-eslint/no-unnecessary-qualifier
 @typescript-eslint/no-unnecessary-type-arguments
 @typescript-eslint/no-unnecessary-type-assertion
+@typescript-eslint/no-unnecessary-type-constraint
+@typescript-eslint/no-unsafe-argument
 @typescript-eslint/no-unsafe-assignment
 @typescript-eslint/no-unsafe-call
 @typescript-eslint/no-unsafe-member-access
@@ -71,6 +78,8 @@
 @typescript-eslint/no-use-before-define
 @typescript-eslint/no-useless-constructor
 @typescript-eslint/no-var-requires
+@typescript-eslint/non-nullable-type-assertion-style
+@typescript-eslint/object-curly-spacing
 @typescript-eslint/prefer-as-const
 @typescript-eslint/prefer-enum-initializers
 @typescript-eslint/prefer-for-of
@@ -94,7 +103,9 @@
 @typescript-eslint/restrict-template-expressions
 @typescript-eslint/return-await
 @typescript-eslint/semi
+@typescript-eslint/sort-type-union-intersection-members
 @typescript-eslint/space-before-function-paren
+@typescript-eslint/space-infix-ops
 @typescript-eslint/strict-boolean-expressions
 @typescript-eslint/switch-exhaustiveness-check
 @typescript-eslint/triple-slash-reference

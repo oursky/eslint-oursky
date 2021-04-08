@@ -16,6 +16,7 @@ module.exports = {
     "@typescript-eslint/ban-types": "error",
     "@typescript-eslint/brace-style": "off",
     "@typescript-eslint/class-literal-property-style": "off",
+    "@typescript-eslint/comma-dangle": "off",
     "@typescript-eslint/comma-spacing": "off",
 
     "default-param-last": "off",
@@ -180,5 +181,23 @@ module.exports = {
     "@typescript-eslint/no-unsafe-assignment": "off",
     "@typescript-eslint/prefer-reduce-type-parameter": "error",
     "@typescript-eslint/no-shadow": "off",
+    "@typescript-eslint/consistent-indexed-object-style": ["error", "record"],
+    "@typescript-eslint/no-confusing-void-expression": [
+      "error",
+      {
+        ignoreArrowShorthand: true,
+        ignoreVoidOperator: true,
+      },
+    ],
+    "no-duplicate-imports": "off",
+    "@typescript-eslint/no-duplicate-imports": ["error"],
+    "no-loop-func": "off",
+    "@typescript-eslint/no-loop-func": ["error"],
+    "@typescript-eslint/no-unnecessary-type-constraint": "error",
+    "@typescript-eslint/no-unsafe-argument": "off",
+    "@typescript-eslint/non-nullable-type-assertion-style": "error",
+    "@typescript-eslint/object-curly-spacing": "off",
+    "@typescript-eslint/sort-type-union-intersection-members": "off",
+    "@typescript-eslint/space-infix-ops": "off",
   },
 };
