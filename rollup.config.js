@@ -1,5 +1,5 @@
 import { readFileSync } from "fs";
-import babel from "rollup-plugin-babel";
+import babel from "@rollup/plugin-babel";
 import commonjs from "@rollup/plugin-commonjs";
 import json from "@rollup/plugin-json";
 import resolve from "@rollup/plugin-node-resolve";
@@ -16,7 +16,7 @@ const plugins = [
   babel({
     extensions,
     exclude: "node_modules/**",
-    runtimeHelpers: true,
+    babelHelpers: "bundled",
   }),
   json({
     preferConst: true,
