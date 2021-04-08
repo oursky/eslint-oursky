@@ -22,6 +22,7 @@ In your `.eslintrc`
     "plugin:@oursky/oursky",
     // Include this if you are using TypeScript.
     "plugin:@oursky/typescript",
+    "plugin:@oursky/tsdoc",
     // Include these two if your project is React.
     "plugin:@oursky/react",
     "plugin:@oursky/react-hooks",
