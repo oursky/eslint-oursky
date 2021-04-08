@@ -141,6 +141,7 @@ no-new-func
 no-new-object
 no-new-symbol
 no-new-wrappers
+no-nonoctal-decimal-escape
 no-obj-calls
 no-octal
 no-octal-escape
@@ -183,6 +184,7 @@ no-unreachable
 no-unreachable-loop
 no-unsafe-finally
 no-unsafe-negation
+no-unsafe-optional-chaining
 no-unused-expressions
 no-unused-labels
 no-unused-vars
