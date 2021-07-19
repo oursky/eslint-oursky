@@ -15,13 +15,13 @@
     "dist"
   ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.21.0",
-    "@typescript-eslint/experimental-utils": "^4.21.0",
-    "@typescript-eslint/parser": "^4.21.0",
-    "eslint-plugin-react": "^7.23.1",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/experimental-utils": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-react-native": "^3.10.0",
-    "eslint-plugin-tsdoc": "^0.2.11"
+    "eslint-plugin-react-native": "^3.11.0",
+    "eslint-plugin-tsdoc": "^0.2.14"
   },
   "devDependencies": {
     "@babel/cli": "7.14.5",
@@ -34,12 +34,12 @@
     "@rollup/plugin-json": "4.1.0",
     "@rollup/plugin-node-resolve": "13.0.2",
     "builtins": "4.0.0",
-    "eslint": "7.23.0",
+    "eslint": "7.31.0",
     "prettier": "2.2.1",
     "rollup": "2.53.2",
     "typescript": "4.3.5"
   },
   "peerDependencies": {
-    "eslint": "^7.23.0"
+    "eslint": "^7.31.0"
   }
 }
