@@ -93,6 +93,7 @@
 @typescript-eslint/prefer-readonly-parameter-types
 @typescript-eslint/prefer-reduce-type-parameter
 @typescript-eslint/prefer-regexp-exec
+@typescript-eslint/prefer-return-this-type
 @typescript-eslint/prefer-string-starts-ends-with
 @typescript-eslint/prefer-ts-expect-error
 @typescript-eslint/promise-function-async

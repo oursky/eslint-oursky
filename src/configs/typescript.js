@@ -146,6 +146,7 @@ module.exports = {
     "@typescript-eslint/no-misused-promises": "error",
     "@typescript-eslint/no-unnecessary-type-assertion": "error",
     "@typescript-eslint/prefer-regexp-exec": "error",
+    "@typescript-eslint/prefer-return-this-type": "error",
     "@typescript-eslint/unbound-method": [
       "error",
       {
