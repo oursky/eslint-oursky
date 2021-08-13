@@ -34,7 +34,7 @@
     "@rollup/plugin-node-resolve": "13.0.4",
     "builtins": "4.0.0",
     "eslint": "7.31.0",
-    "prettier": "2.2.1",
+    "prettier": "2.3.2",
     "rollup": "2.56.2",
     "typescript": "4.3.5"
   },
