@@ -1,7 +1,4 @@
-var plugins = [
-  "@babel/plugin-transform-typescript",
-  "@babel/plugin-proposal-class-properties",
-];
+var plugins = ["@babel/plugin-transform-typescript"];
 
 var presets = [
   [
@@ -10,7 +7,6 @@ var presets = [
       targets: {
         node: "8",
       },
-      loose: true,
       modules: process.env.NODE_ENV === "test" ? "commonjs" : false,
       useBuiltIns: "usage",
       corejs: 3,
