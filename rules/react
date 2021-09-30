@@ -59,6 +59,7 @@ react/no-direct-mutation-state
 react/no-find-dom-node
 react/no-is-mounted
 react/no-multi-comp
+react/no-namespace
 react/no-redundant-should-component-update
 react/no-render-return-value
 react/no-set-state
@@ -73,6 +74,7 @@ react/no-unused-prop-types
 react/no-unused-state
 react/no-will-update-set-state
 react/prefer-es6-class
+react/prefer-exact-props
 react/prefer-read-only-props
 react/prefer-stateless-function
 react/prop-types
