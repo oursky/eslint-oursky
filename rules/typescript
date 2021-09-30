@@ -50,14 +50,17 @@
 @typescript-eslint/no-loop-func
 @typescript-eslint/no-loss-of-precision
 @typescript-eslint/no-magic-numbers
+@typescript-eslint/no-meaningless-void-operator
 @typescript-eslint/no-misused-new
 @typescript-eslint/no-misused-promises
 @typescript-eslint/no-namespace
+@typescript-eslint/no-non-null-asserted-nullish-coalescing
 @typescript-eslint/no-non-null-asserted-optional-chain
 @typescript-eslint/no-non-null-assertion
 @typescript-eslint/no-parameter-properties
 @typescript-eslint/no-redeclare
 @typescript-eslint/no-require-imports
+@typescript-eslint/no-restricted-imports
 @typescript-eslint/no-shadow
 @typescript-eslint/no-this-alias
 @typescript-eslint/no-throw-literal
@@ -80,6 +83,7 @@
 @typescript-eslint/no-var-requires
 @typescript-eslint/non-nullable-type-assertion-style
 @typescript-eslint/object-curly-spacing
+@typescript-eslint/padding-line-between-statements
 @typescript-eslint/prefer-as-const
 @typescript-eslint/prefer-enum-initializers
 @typescript-eslint/prefer-for-of
