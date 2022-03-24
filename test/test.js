@@ -1,25 +1,13 @@
 const path = require("path");
 
-const { CLIEngine } = require("eslint");
-
-function patchResults(results) {
-  const cwd = process.cwd();
-  return results.map(result => {
-    return {
-      ...result,
-      filePath: path.relative(cwd, result.filePath),
-    };
-  });
-}
+const { ESLint } = require("eslint");
 
 function runTest(filename) {
-  test(filename, () => {
-    const cli = new CLIEngine();
-    const report = cli.executeOnFiles([path.join("src", filename)]);
-    const formatter = cli.getFormatter("unix");
-    const results = patchResults(report.results);
-    // Patch results so that all paths are relative to cwd.
-    const actual = formatter(results);
+  test(filename, async () => {
+    const cli = new ESLint();
+    const lintResults = await cli.lintFiles([path.join("src", filename)]);
+    const formatter = await cli.loadFormatter("unix");
+    const actual = await formatter.format(lintResults);
     expect(actual).toMatchSnapshot();
   });
 }
