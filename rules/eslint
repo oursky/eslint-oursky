@@ -187,6 +187,7 @@ no-unsafe-negation
 no-unsafe-optional-chaining
 no-unused-expressions
 no-unused-labels
+no-unused-private-class-members
 no-unused-vars
 no-use-before-define
 no-useless-backreference
@@ -220,6 +221,7 @@ prefer-destructuring
 prefer-exponentiation-operator
 prefer-named-capture-group
 prefer-numeric-literals
+prefer-object-has-own
 prefer-object-spread
 prefer-promise-reject-errors
 prefer-regex-literals

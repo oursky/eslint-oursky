@@ -9,6 +9,8 @@ react/forbid-elements
 react/forbid-foreign-prop-types
 react/forbid-prop-types
 react/function-component-definition
+react/hook-use-state
+react/iframe-missing-sandbox
 react/jsx-boolean-value
 react/jsx-child-element-spacing
 react/jsx-closing-bracket-location
@@ -49,6 +51,7 @@ react/jsx-wrap-multilines
 react/no-access-state-in-setstate
 react/no-adjacent-inline-elements
 react/no-array-index-key
+react/no-arrow-function-lifecycle
 react/no-children-prop
 react/no-danger
 react/no-danger-with-children
@@ -57,6 +60,7 @@ react/no-did-mount-set-state
 react/no-did-update-set-state
 react/no-direct-mutation-state
 react/no-find-dom-node
+react/no-invalid-html-attribute
 react/no-is-mounted
 react/no-multi-comp
 react/no-namespace
@@ -70,6 +74,7 @@ react/no-unescaped-entities
 react/no-unknown-property
 react/no-unsafe
 react/no-unstable-nested-components
+react/no-unused-class-component-methods
 react/no-unused-prop-types
 react/no-unused-state
 react/no-will-update-set-state
