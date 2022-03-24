@@ -76,6 +76,7 @@ module.exports = {
 
     "no-redeclare": "off",
     "@typescript-eslint/no-redeclare": "error",
+    "@typescript-eslint/no-redundant-type-constituents": "error",
 
     "@typescript-eslint/no-var-requires": "error",
     "@typescript-eslint/prefer-for-of": "off",
@@ -116,6 +117,7 @@ module.exports = {
 
     "@typescript-eslint/adjacent-overload-signatures": "error",
     "@typescript-eslint/consistent-type-assertions": "error",
+    "@typescript-eslint/consistent-type-exports": "off",
     "@typescript-eslint/no-array-constructor": "error",
     "@typescript-eslint/no-inferrable-types": [
       "error",
@@ -171,6 +173,7 @@ module.exports = {
     ],
     "@typescript-eslint/no-unnecessary-qualifier": "error",
     "@typescript-eslint/no-useless-constructor": "error",
+    "@typescript-eslint/no-useless-empty-export": "error",
     "@typescript-eslint/unified-signatures": "error",
     "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
     // It reports `import React from "react";` as type-only, which is not.
@@ -209,5 +212,6 @@ module.exports = {
     "@typescript-eslint/padding-line-between-statements": "off",
     "@typescript-eslint/sort-type-union-intersection-members": "off",
     "@typescript-eslint/space-infix-ops": "off",
+    "@typescript-eslint/space-before-blocks": "off"
   },
 };
