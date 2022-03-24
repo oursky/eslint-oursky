@@ -47,7 +47,12 @@ module.exports = {
     "@typescript-eslint/no-extra-non-null-assertion": "error",
     "@typescript-eslint/no-extra-parens": "off",
     "@typescript-eslint/no-extra-semi": "off",
-    "@typescript-eslint/no-implicit-any-catch": "error",
+    "@typescript-eslint/no-implicit-any-catch": [
+      "error",
+      {
+        allowExplicitAny: true,
+      },
+    ],
     "@typescript-eslint/no-implied-eval": "error",
     "no-invalid-this": "off",
     "@typescript-eslint/no-invalid-this": "error",
