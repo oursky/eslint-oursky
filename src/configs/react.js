@@ -126,5 +126,6 @@ module.exports = {
     "react/jsx-newline": "off",
     "react/jsx-no-constructed-context-values": "error",
     "react/no-unstable-nested-components": "error",
+    "react/jsx-no-leaked-render": ["error", { validStrategies: ["ternary"] }],
   },
 };

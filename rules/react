@@ -33,6 +33,7 @@ react/jsx-no-bind
 react/jsx-no-comment-textnodes
 react/jsx-no-constructed-context-values
 react/jsx-no-duplicate-props
+react/jsx-no-leaked-render
 react/jsx-no-literals
 react/jsx-no-script-url
 react/jsx-no-target-blank
