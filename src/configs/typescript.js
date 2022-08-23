@@ -212,6 +212,6 @@ module.exports = {
     "@typescript-eslint/padding-line-between-statements": "off",
     "@typescript-eslint/sort-type-union-intersection-members": "off",
     "@typescript-eslint/space-infix-ops": "off",
-    "@typescript-eslint/space-before-blocks": "off"
+    "@typescript-eslint/space-before-blocks": "off",
   },
 };
