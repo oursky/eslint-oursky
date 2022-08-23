@@ -139,6 +139,7 @@ module.exports = {
         argsIgnorePattern: "^_",
         caughtErrors: "all",
         caughtErrorsIgnorePattern: "^_",
+        destructuredArrayIgnorePattern: "^_",
       },
     ],
     "@typescript-eslint/no-use-before-define": [
@@ -164,7 +165,7 @@ module.exports = {
       },
     ],
     "@typescript-eslint/no-extraneous-class": "error",
-    "@typescript-eslint/no-parameter-properties": "error",
+    "@typescript-eslint/parameter-properties": "error",
     "@typescript-eslint/no-unnecessary-condition": [
       "error",
       {
@@ -174,7 +175,12 @@ module.exports = {
     "@typescript-eslint/no-unnecessary-qualifier": "error",
     "@typescript-eslint/no-useless-constructor": "error",
     "@typescript-eslint/no-useless-empty-export": "error",
-    "@typescript-eslint/unified-signatures": "error",
+    "@typescript-eslint/unified-signatures": [
+      "error",
+      {
+        ignoreDifferentlyNamedParameters: true,
+      },
+    ],
     "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
     // It reports `import React from "react";` as type-only, which is not.
     "@typescript-eslint/consistent-type-imports": "off",
@@ -201,8 +207,6 @@ module.exports = {
         ignoreVoidOperator: true,
       },
     ],
-    "no-duplicate-imports": "off",
-    "@typescript-eslint/no-duplicate-imports": ["error"],
     "no-loop-func": "off",
     "@typescript-eslint/no-loop-func": ["error"],
     "@typescript-eslint/no-unnecessary-type-constraint": "error",
@@ -213,5 +217,7 @@ module.exports = {
     "@typescript-eslint/sort-type-union-intersection-members": "off",
     "@typescript-eslint/space-infix-ops": "off",
     "@typescript-eslint/space-before-blocks": "off",
+    "@typescript-eslint/no-duplicate-enum-values": "error",
+    "@typescript-eslint/consistent-generic-constructors": "off",
   },
 };

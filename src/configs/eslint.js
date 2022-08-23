@@ -241,7 +241,12 @@ module.exports = {
     "yield-star-spacing": "off",
     yoda: "off",
     "no-dupe-else-if": "error",
-    "no-duplicate-imports": "error",
+    "no-duplicate-imports": [
+      "error",
+      {
+        includeExports: true,
+      },
+    ],
     "no-else-return": "error",
     "no-eval": "error",
     "no-extend-native": "error",

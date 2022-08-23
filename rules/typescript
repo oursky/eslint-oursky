@@ -8,6 +8,7 @@
 @typescript-eslint/class-literal-property-style
 @typescript-eslint/comma-dangle
 @typescript-eslint/comma-spacing
+@typescript-eslint/consistent-generic-constructors
 @typescript-eslint/consistent-indexed-object-style
 @typescript-eslint/consistent-type-assertions
 @typescript-eslint/consistent-type-definitions
@@ -32,7 +33,7 @@
 @typescript-eslint/no-confusing-non-null-assertion
 @typescript-eslint/no-confusing-void-expression
 @typescript-eslint/no-dupe-class-members
-@typescript-eslint/no-duplicate-imports
+@typescript-eslint/no-duplicate-enum-values
 @typescript-eslint/no-dynamic-delete
 @typescript-eslint/no-empty-function
 @typescript-eslint/no-empty-interface
@@ -57,7 +58,6 @@
 @typescript-eslint/no-non-null-asserted-nullish-coalescing
 @typescript-eslint/no-non-null-asserted-optional-chain
 @typescript-eslint/no-non-null-assertion
-@typescript-eslint/no-parameter-properties
 @typescript-eslint/no-redeclare
 @typescript-eslint/no-redundant-type-constituents
 @typescript-eslint/no-require-imports
@@ -86,6 +86,7 @@
 @typescript-eslint/non-nullable-type-assertion-style
 @typescript-eslint/object-curly-spacing
 @typescript-eslint/padding-line-between-statements
+@typescript-eslint/parameter-properties
 @typescript-eslint/prefer-as-const
 @typescript-eslint/prefer-enum-initializers
 @typescript-eslint/prefer-for-of
