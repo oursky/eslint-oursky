@@ -89,6 +89,7 @@ module.exports = {
     "no-confusing-arrow": "error",
     "no-console": "off",
     "no-const-assign": "error",
+    "no-constant-binary-expression": "error",
     "no-constant-condition": [
       "error",
       {

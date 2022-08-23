@@ -79,6 +79,7 @@ no-cond-assign
 no-confusing-arrow
 no-console
 no-const-assign
+no-constant-binary-expression
 no-constant-condition
 no-constructor-return
 no-continue
