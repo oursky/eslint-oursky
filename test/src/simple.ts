@@ -8,3 +8,5 @@ export function testSwitch(a: A) {
       break;
   }
 }
+
+var b = !!a;
