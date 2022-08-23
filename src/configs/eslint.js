@@ -123,7 +123,7 @@ module.exports = {
     ],
     "no-func-assign": "error",
     "no-global-assign": "error",
-    "no-implicit-coercion": "error",
+    "no-implicit-coercion": ["error", { allow: ["!!"] }],
     "no-implicit-globals": "error",
     "no-inline-comments": "off",
     "no-inner-declarations": "off",
