@@ -1,7 +1,7 @@
 ## Installation
 
 ```sh
-npm install --save --save-dev --save-exact eslint@7.x @oursky/eslint-plugin
+npm install --save --save-dev --save-exact eslint@8.x @oursky/eslint-plugin
 ```
 
 ## Usage
