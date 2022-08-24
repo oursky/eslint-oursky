@@ -1,21 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`react.tsx 1`] = `
-"/Users/louischan/eslint-oursky/test/src/react.tsx:3:26: Use VFC and VoidFunctionComponent instead of FC and FunctionComponent. [Error/@oursky/react-vfc]
-/Users/louischan/eslint-oursky/test/src/react.tsx:7:26: Use VFC and VoidFunctionComponent instead of FC and FunctionComponent. [Error/@oursky/react-vfc]
-/Users/louischan/eslint-oursky/test/src/react.tsx:11:26: Use VFC and VoidFunctionComponent instead of FC and FunctionComponent. [Error/@oursky/react-vfc]
-/Users/louischan/eslint-oursky/test/src/react.tsx:15:26: Use VFC and VoidFunctionComponent instead of FC and FunctionComponent. [Error/@oursky/react-vfc]
+"src/react.tsx:3:26: Use VFC and VoidFunctionComponent instead of FC and FunctionComponent. [Error/@oursky/react-vfc]
+src/react.tsx:7:26: Use VFC and VoidFunctionComponent instead of FC and FunctionComponent. [Error/@oursky/react-vfc]
+src/react.tsx:11:26: Use VFC and VoidFunctionComponent instead of FC and FunctionComponent. [Error/@oursky/react-vfc]
+src/react.tsx:15:26: Use VFC and VoidFunctionComponent instead of FC and FunctionComponent. [Error/@oursky/react-vfc]
 
 4 problems"
 `;
 
 exports[`simple.ts 1`] = `
-"/Users/louischan/eslint-oursky/test/src/simple.ts:1:1: Unexpected var, use let or const instead. [Error/no-var]
-/Users/louischan/eslint-oursky/test/src/simple.ts:1:8: Expected a \`const\` assertion instead of a literal type annotation. [Error/@typescript-eslint/prefer-as-const]
-/Users/louischan/eslint-oursky/test/src/simple.ts:5:8: Missing return type on function. [Error/@typescript-eslint/explicit-module-boundary-types]
-/Users/louischan/eslint-oursky/test/src/simple.ts:6:11: Switch is not exhaustive. Cases not matched: \\"b\\" [Error/@typescript-eslint/switch-exhaustiveness-check]
-/Users/louischan/eslint-oursky/test/src/simple.ts:12:1: Unexpected var, use let or const instead. [Error/no-var]
-/Users/louischan/eslint-oursky/test/src/simple.ts:12:5: 'b' is assigned a value but never used. Allowed unused vars must match /^_/u. [Error/@typescript-eslint/no-unused-vars]
+"src/simple.ts:1:1: Unexpected var, use let or const instead. [Error/no-var]
+src/simple.ts:1:8: Expected a \`const\` assertion instead of a literal type annotation. [Error/@typescript-eslint/prefer-as-const]
+src/simple.ts:5:8: Missing return type on function. [Error/@typescript-eslint/explicit-module-boundary-types]
+src/simple.ts:6:11: Switch is not exhaustive. Cases not matched: \\"b\\" [Error/@typescript-eslint/switch-exhaustiveness-check]
+src/simple.ts:12:1: Unexpected var, use let or const instead. [Error/no-var]
+src/simple.ts:12:5: 'b' is assigned a value but never used. Allowed unused vars must match /^_/u. [Error/@typescript-eslint/no-unused-vars]
 
 6 problems"
 `;
