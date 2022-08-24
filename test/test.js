@@ -13,3 +13,4 @@ function runTest(filename) {
 }
 
 runTest("simple.ts");
+runTest("react.tsx");
