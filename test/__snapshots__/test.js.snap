@@ -7,7 +7,6 @@ exports[`simple.ts 1`] = `
 /Users/louischan/eslint-oursky/test/src/simple.ts:6:11: Switch is not exhaustive. Cases not matched: \\"b\\" [Error/@typescript-eslint/switch-exhaustiveness-check]
 /Users/louischan/eslint-oursky/test/src/simple.ts:12:1: Unexpected var, use let or const instead. [Error/no-var]
 /Users/louischan/eslint-oursky/test/src/simple.ts:12:5: 'b' is assigned a value but never used. Allowed unused vars must match /^_/u. [Error/@typescript-eslint/no-unused-vars]
-/Users/louischan/eslint-oursky/test/src/simple.ts:12:9: use \`Boolean(a)\` instead. [Error/no-implicit-coercion]
 
-7 problems"
+6 problems"
 `;
