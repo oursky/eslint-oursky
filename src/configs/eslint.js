@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   rules: {
     "accessor-pairs": "error",
     "array-bracket-newline": "off",

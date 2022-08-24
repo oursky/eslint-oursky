@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   plugins: ["react-native"],
   rules: {
     "react-native/no-color-literals": "off",
