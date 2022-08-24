@@ -1,13 +1,15 @@
 {
   "name": "@oursky/eslint-plugin",
   "version": "10.0.0",
-  "source": "src/index.js",
+  "source": "src/index.mjs",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "repository": "git@github.com:oursky/eslint-oursky.git",
   "author": "<louischan@oursky.com>",
   "license": "Apache-2.0",
   "scripts": {
-    "prepublishOnly": "parcel build",
+    "build": "parcel build",
+    "prepublishOnly": "npm run build",
     "test": "npm run prepublishOnly && cd test && npm ci && npm test",
     "typecheck": "tsc --noEmit",
     "format": "prettier --write --list-different 'src/**/*.{js,jsx,ts,tsx}'"

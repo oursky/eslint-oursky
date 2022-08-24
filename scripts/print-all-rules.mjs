@@ -1,5 +1,5 @@
-const { ESLint } = require("eslint");
-const fs = require("fs");
+import { ESLint } from "eslint";
+import { writeFileSync } from "fs";
 
 const todos = [
   {
@@ -52,7 +52,7 @@ const todos = [
     rules.sort();
 
     const content = rules.join("\n") + "\n";
-    fs.writeFileSync(todo.writeTo, content, { encoding: "utf8" });
+    writeFileSync(todo.writeTo, content, { encoding: "utf8" });
   }
 })().catch((error) => {
   process.exitCode = 1;

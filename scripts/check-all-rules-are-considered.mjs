@@ -1,29 +1,29 @@
-const fs = require("fs");
+import { readFileSync } from "fs";
 
 const todos = [
   {
     rules: "rules/eslint",
-    config: "../src/configs/eslint",
+    config: "../src/configs/eslint.mjs",
   },
   {
     rules: "rules/typescript",
-    config: "../src/configs/typescript",
+    config: "../src/configs/typescript.mjs",
   },
   {
     rules: "rules/tsdoc",
-    config: "../src/configs/tsdoc",
+    config: "../src/configs/tsdoc.mjs",
   },
   {
     rules: "rules/react",
-    config: "../src/configs/react",
+    config: "../src/configs/react.mjs",
   },
   {
     rules: "rules/reacthooks",
-    config: "../src/configs/reacthooks",
+    config: "../src/configs/reacthooks.mjs",
   },
   {
     rules: "rules/reactnative",
-    config: "../src/configs/reactnative",
+    config: "../src/configs/reactnative.mjs",
   },
 ];
 
@@ -31,12 +31,12 @@ const todos = [
   let missingRules = [];
 
   for (const todo of todos) {
-    const content = fs.readFileSync(todo.rules, { encoding: "utf8" });
+    const content = readFileSync(todo.rules, { encoding: "utf8" });
     const allRules = content.split("\n").filter((line) => line !== "");
 
-    const consideredRules = Object.keys(require(todo.config).rules);
+    const module = await import(todo.config);
+    const consideredRules = Object.keys(module.default.rules);
 
-    const allRulesSet = new Set(allRules);
     const consideredRulesSet = new Set(consideredRules);
 
     const unconsideredRulesSet = allRules.filter(
