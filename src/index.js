@@ -5,6 +5,7 @@ import reactHooks from "./configs/reacthooks";
 import reactNative from "./configs/reactnative";
 import tsdoc from "./configs/tsdoc";
 import oursky from "./configs/oursky";
+import { rules } from "./rules";
 
 export const configs = {
   eslint,
@@ -15,3 +16,4 @@ export const configs = {
   "react-hooks": reactHooks,
   "react-native": reactNative,
 };
+export { rules };

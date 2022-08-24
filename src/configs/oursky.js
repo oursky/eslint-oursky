@@ -1,5 +1,5 @@
 export default {
   rules: {
-    // Add rules here.
+    "@oursky/react-vfc": "error",
   },
 };
