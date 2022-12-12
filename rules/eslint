@@ -52,6 +52,7 @@ line-comment-position
 linebreak-style
 lines-around-comment
 lines-between-class-members
+logical-assignment-operators
 max-classes-per-file
 max-depth
 max-len
@@ -98,6 +99,7 @@ no-empty
 no-empty-character-class
 no-empty-function
 no-empty-pattern
+no-empty-static-block
 no-eq-null
 no-eval
 no-ex-assign
@@ -139,6 +141,7 @@ no-negated-condition
 no-nested-ternary
 no-new
 no-new-func
+no-new-native-nonconstructor
 no-new-object
 no-new-symbol
 no-new-wrappers
