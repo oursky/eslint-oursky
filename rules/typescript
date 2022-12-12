@@ -75,6 +75,7 @@
 @typescript-eslint/no-unsafe-argument
 @typescript-eslint/no-unsafe-assignment
 @typescript-eslint/no-unsafe-call
+@typescript-eslint/no-unsafe-declaration-merging
 @typescript-eslint/no-unsafe-member-access
 @typescript-eslint/no-unsafe-return
 @typescript-eslint/no-unused-expressions
@@ -111,7 +112,7 @@
 @typescript-eslint/restrict-template-expressions
 @typescript-eslint/return-await
 @typescript-eslint/semi
-@typescript-eslint/sort-type-union-intersection-members
+@typescript-eslint/sort-type-constituents
 @typescript-eslint/space-before-blocks
 @typescript-eslint/space-before-function-paren
 @typescript-eslint/space-infix-ops
