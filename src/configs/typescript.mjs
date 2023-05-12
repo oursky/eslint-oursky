@@ -142,13 +142,18 @@ export default {
         destructuredArrayIgnorePattern: "^_",
       },
     ],
+    "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": [
       "error",
       {
+        enums: false,
+        typedefs: false,
+        ignoreTypeReferences: true,
+
         functions: false,
         classes: true,
         variables: true,
-        typedefs: false,
+        allowNamedExports: true,
       },
     ],
     "@typescript-eslint/triple-slash-reference": "error",
