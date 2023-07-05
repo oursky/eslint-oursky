@@ -1,6 +1,6 @@
 {
   "name": "@oursky/eslint-plugin",
-  "version": "11.2.0",
+  "version": "11.3.0",
   "source": "src/index.mjs",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
