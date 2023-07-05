@@ -194,8 +194,14 @@ export default {
     "@typescript-eslint/prefer-enum-initializers": "error",
     "no-dupe-class-members": "off",
     "@typescript-eslint/no-dupe-class-members": "error",
+
+    // default-case and consistent-return could undermine the usefulness of
+    // @typescript-eslint/switch-exhaustiveness-check.
+    // https://github.com/oursky/eslint-oursky/issues/43
     "default-case": "off",
+    "consistent-return": "off",
     "@typescript-eslint/switch-exhaustiveness-check": "error",
+
     "@typescript-eslint/no-base-to-string": "error",
     "@typescript-eslint/no-confusing-non-null-assertion": "off",
     "@typescript-eslint/no-unsafe-call": "off",
