@@ -9,8 +9,8 @@
   "license": "Apache-2.0",
   "scripts": {
     "build": "parcel build",
-    "prepublishOnly": "npm run build",
-    "test": "npm run prepublishOnly && cd test && npm ci && npm test",
+    "prepublishOnly": "npm run typecheck && npm run format && npm run test",
+    "test": "npm run build && cd test && npm ci && npm test",
     "typecheck": "tsc --noEmit",
     "format": "prettier --write --list-different 'src/**/*.{cjs,mjs,js,jsx,ts,tsx}'"
   },
