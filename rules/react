@@ -43,7 +43,6 @@ react/jsx-one-expression-per-line
 react/jsx-pascal-case
 react/jsx-props-no-multi-spaces
 react/jsx-props-no-spreading
-react/jsx-sort-default-props
 react/jsx-sort-props
 react/jsx-tag-spacing
 react/jsx-uses-react
@@ -65,6 +64,7 @@ react/no-invalid-html-attribute
 react/no-is-mounted
 react/no-multi-comp
 react/no-namespace
+react/no-object-type-as-default-prop
 react/no-redundant-should-component-update
 react/no-render-return-value
 react/no-set-state
@@ -90,6 +90,7 @@ react/require-optimization
 react/require-render-return
 react/self-closing-comp
 react/sort-comp
+react/sort-default-props
 react/sort-prop-types
 react/state-in-constructor
 react/static-property-placement
