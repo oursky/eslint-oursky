@@ -4,8 +4,10 @@
 @typescript-eslint/ban-ts-comment
 @typescript-eslint/ban-tslint-comment
 @typescript-eslint/ban-types
+@typescript-eslint/block-spacing
 @typescript-eslint/brace-style
 @typescript-eslint/class-literal-property-style
+@typescript-eslint/class-methods-use-this
 @typescript-eslint/comma-dangle
 @typescript-eslint/comma-spacing
 @typescript-eslint/consistent-generic-constructors
@@ -22,7 +24,9 @@
 @typescript-eslint/func-call-spacing
 @typescript-eslint/indent
 @typescript-eslint/init-declarations
+@typescript-eslint/key-spacing
 @typescript-eslint/keyword-spacing
+@typescript-eslint/lines-around-comment
 @typescript-eslint/lines-between-class-members
 @typescript-eslint/member-delimiter-style
 @typescript-eslint/member-ordering
@@ -34,6 +38,7 @@
 @typescript-eslint/no-confusing-void-expression
 @typescript-eslint/no-dupe-class-members
 @typescript-eslint/no-duplicate-enum-values
+@typescript-eslint/no-duplicate-type-constituents
 @typescript-eslint/no-dynamic-delete
 @typescript-eslint/no-empty-function
 @typescript-eslint/no-empty-interface
@@ -45,6 +50,7 @@
 @typescript-eslint/no-floating-promises
 @typescript-eslint/no-for-in-array
 @typescript-eslint/no-implied-eval
+@typescript-eslint/no-import-type-side-effects
 @typescript-eslint/no-inferrable-types
 @typescript-eslint/no-invalid-this
 @typescript-eslint/no-invalid-void-type
@@ -54,6 +60,7 @@
 @typescript-eslint/no-meaningless-void-operator
 @typescript-eslint/no-misused-new
 @typescript-eslint/no-misused-promises
+@typescript-eslint/no-mixed-enums
 @typescript-eslint/no-namespace
 @typescript-eslint/no-non-null-asserted-nullish-coalescing
 @typescript-eslint/no-non-null-asserted-optional-chain
@@ -65,7 +72,6 @@
 @typescript-eslint/no-shadow
 @typescript-eslint/no-this-alias
 @typescript-eslint/no-throw-literal
-@typescript-eslint/no-type-alias
 @typescript-eslint/no-unnecessary-boolean-literal-compare
 @typescript-eslint/no-unnecessary-condition
 @typescript-eslint/no-unnecessary-qualifier
@@ -76,6 +82,7 @@
 @typescript-eslint/no-unsafe-assignment
 @typescript-eslint/no-unsafe-call
 @typescript-eslint/no-unsafe-declaration-merging
+@typescript-eslint/no-unsafe-enum-comparison
 @typescript-eslint/no-unsafe-member-access
 @typescript-eslint/no-unsafe-return
 @typescript-eslint/no-unused-expressions
