@@ -8,7 +8,7 @@ export default ESLintUtils.RuleCreator((name) => name)({
     docs: {
       description:
         "Forbid the use of FC and FunctionComponent. Use VFC and VoidFunctionComponent instead.",
-      recommended: "error",
+      recommended: "strict",
     },
     messages: {
       vfc: "Use VFC and VoidFunctionComponent instead of FC and FunctionComponent.",
