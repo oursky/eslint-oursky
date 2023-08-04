@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "eslint": "8.46.0",
-    "parcel": "2.8.1",
+    "parcel": "2.9.3",
     "prettier": "2.8.1",
     "typescript": "5.1.6"
   },
