@@ -272,7 +272,7 @@ export default {
     "no-path-concat": "error",
     "no-proto": "error",
     "no-return-assign": "error",
-    "no-return-await": "error",
+    "no-return-await": "off",
     "no-script-url": "error",
     "no-self-compare": "error",
     "no-sequences": "error",

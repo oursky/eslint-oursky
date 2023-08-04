@@ -162,7 +162,6 @@ no-restricted-imports
 no-restricted-properties
 no-restricted-syntax
 no-return-assign
-no-return-await
 no-script-url
 no-self-assign
 no-self-compare

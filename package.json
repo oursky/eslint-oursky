@@ -27,12 +27,12 @@
     "eslint-plugin-tsdoc": "^0.2.17"
   },
   "devDependencies": {
-    "eslint": "8.29.0",
+    "eslint": "8.46.0",
     "parcel": "2.8.1",
     "prettier": "2.8.1",
     "typescript": "4.9.4"
   },
   "peerDependencies": {
-    "eslint": "^8.29.0"
+    "eslint": "^8.46.0"
   }
 }
