@@ -70,7 +70,11 @@ export default {
     "@typescript-eslint/no-import-type-side-effects": "error",
 
     "no-invalid-this": "off",
-    "@typescript-eslint/no-invalid-this": "error",
+    // For unknown reason, this rule causes crashes.
+    // TypeError: Cannot read properties of undefined (reading 'getScope')
+    // Occurred while linting /Users/louischan/eslint-oursky/test/src/react.tsx:1
+    // Rule: "@typescript-eslint/no-invalid-this"
+    "@typescript-eslint/no-invalid-this": "off",
 
     "@typescript-eslint/no-invalid-void-type": "error",
     "no-loss-of-precision": "off",
