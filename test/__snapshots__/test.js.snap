@@ -16,6 +16,7 @@ src/simple.ts:5:8: Missing return type on function. [Error/@typescript-eslint/ex
 src/simple.ts:6:11: Switch is not exhaustive. Cases not matched: \\"b\\" [Error/@typescript-eslint/switch-exhaustiveness-check]
 src/simple.ts:12:1: Unexpected var, use let or const instead. [Error/no-var]
 src/simple.ts:12:5: 'b' is assigned a value but never used. Allowed unused vars must match /^_/u. [Error/@typescript-eslint/no-unused-vars]
+src/simple.ts:12:11: Unexpected number value in conditional. An explicit zero/NaN check is required. [Error/@typescript-eslint/strict-boolean-expressions]
 
-6 problems"
+7 problems"
 `;
