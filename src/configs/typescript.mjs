@@ -127,7 +127,20 @@ export default {
     "@typescript-eslint/semi": "off",
     "@typescript-eslint/space-before-function-paren": "off",
 
-    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/strict-boolean-expressions": [
+      "error",
+      {
+        allowString: false,
+        allowNumber: false,
+        allowNullableObject: false,
+        allowNullableBoolean: false,
+        allowNullableString: false,
+        allowNullableNumber: false,
+        allowNullableEnum: false,
+        allowAny: false,
+        allowRuleToRunWithoutStrictNullChecksIKnowWhatIAmDoing: false,
+      },
+    ],
     "@typescript-eslint/type-annotation-spacing": "off",
     "@typescript-eslint/typedef": "off",
 
