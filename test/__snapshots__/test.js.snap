@@ -13,10 +13,12 @@ exports[`simple.ts 1`] = `
 "src/simple.ts:1:1: Unexpected var, use let or const instead. [Error/no-var]
 src/simple.ts:1:8: Expected a \`const\` assertion instead of a literal type annotation. [Error/@typescript-eslint/prefer-as-const]
 src/simple.ts:5:8: Missing return type on function. [Error/@typescript-eslint/explicit-module-boundary-types]
-src/simple.ts:6:11: Switch is not exhaustive. Cases not matched: \\"b\\" [Error/@typescript-eslint/switch-exhaustiveness-check]
+src/simple.ts:6:11: Switch is not exhaustive. Cases not matched: "b" [Error/@typescript-eslint/switch-exhaustiveness-check]
 src/simple.ts:12:1: Unexpected var, use let or const instead. [Error/no-var]
 src/simple.ts:12:5: 'b' is assigned a value but never used. Allowed unused vars must match /^_/u. [Error/@typescript-eslint/no-unused-vars]
 src/simple.ts:12:11: Unexpected number value in conditional. An explicit zero/NaN check is required. [Error/@typescript-eslint/strict-boolean-expressions]
+src/simple.ts:14:8: Function 'thisFunctionIsHardToComprehend' has a complexity of 14. Maximum allowed is 10. [Error/complexity]
+src/simple.ts:14:17: Refactor this function to reduce its Cognitive Complexity from 19 to the 10 allowed. [Error/sonarjs/cognitive-complexity]
 
-7 problems"
+9 problems"
 `;
