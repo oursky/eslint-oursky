@@ -88,6 +88,10 @@ export default {
     "@typescript-eslint/no-restricted-imports": "off",
     "@typescript-eslint/no-throw-literal": "error",
     "@typescript-eslint/no-type-alias": "off",
+
+    // https://typescript-eslint.io/linting/troubleshooting/#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
+    "no-undef": "off",
+
     "@typescript-eslint/no-unnecessary-boolean-literal-compare": "off",
     "@typescript-eslint/no-unnecessary-type-arguments": "error",
 
