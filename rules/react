@@ -1,5 +1,6 @@
 react/boolean-prop-naming
 react/button-has-type
+react/checked-requires-onchange-or-readonly
 react/default-props-match-prop-types
 react/destructuring-assignment
 react/display-name

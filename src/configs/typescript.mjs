@@ -14,8 +14,6 @@ export default {
     ],
     "@typescript-eslint/ban-tslint-comment": "error",
     "@typescript-eslint/ban-types": "error",
-    "@typescript-eslint/block-spacing": "off",
-    "@typescript-eslint/brace-style": "off",
     "@typescript-eslint/class-literal-property-style": "off",
 
     "class-methods-use-this": "off",
@@ -26,9 +24,6 @@ export default {
         ignoreClassesThatImplementAnInterface: true,
       },
     ],
-
-    "@typescript-eslint/comma-dangle": "off",
-    "@typescript-eslint/comma-spacing": "off",
 
     "default-param-last": "off",
     "@typescript-eslint/default-param-last": ["error"],
@@ -42,20 +37,9 @@ export default {
         allowArgumentsExplicitlyTypedAsAny: true,
       },
     ],
-    "@typescript-eslint/func-call-spacing": "off",
-    "@typescript-eslint/indent": "off",
     "@typescript-eslint/init-declarations": "off",
 
-    "key-spacing": "off",
-    "@typescript-eslint/key-spacing": "off",
-
-    "@typescript-eslint/keyword-spacing": "off",
-
-    "lines-around-comment": "off",
-    "@typescript-eslint/lines-around-comment": "off",
-
-    "@typescript-eslint/lines-between-class-members": "off",
-    "@typescript-eslint/member-delimiter-style": "off",
+    "@typescript-eslint/max-params": "off",
     "@typescript-eslint/member-ordering": "off",
     "@typescript-eslint/method-signature-style": "off",
     "@typescript-eslint/naming-convention": "off",
@@ -64,8 +48,6 @@ export default {
     "@typescript-eslint/no-empty-interface": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-extra-non-null-assertion": "error",
-    "@typescript-eslint/no-extra-parens": "off",
-    "@typescript-eslint/no-extra-semi": "off",
     "@typescript-eslint/no-implied-eval": "error",
     "@typescript-eslint/no-import-type-side-effects": "error",
 
@@ -86,7 +68,6 @@ export default {
     "@typescript-eslint/no-non-null-assertion": "error",
     "@typescript-eslint/no-require-imports": "error",
     "@typescript-eslint/no-restricted-imports": "off",
-    "@typescript-eslint/no-throw-literal": "error",
     "@typescript-eslint/no-type-alias": "off",
 
     // https://typescript-eslint.io/linting/troubleshooting/#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
@@ -110,12 +91,14 @@ export default {
     "@typescript-eslint/prefer-namespace-keyword": "off",
     "@typescript-eslint/prefer-nullish-coalescing": "error",
     "@typescript-eslint/prefer-optional-chain": "error",
+
+    "prefer-promise-reject-errors": "off",
+    "@typescript-eslint/prefer-promise-reject-errors": "error",
+
     "@typescript-eslint/prefer-readonly": "off",
     "@typescript-eslint/prefer-readonly-parameter-types": "off",
     "@typescript-eslint/prefer-string-starts-ends-with": "off",
-    "@typescript-eslint/prefer-ts-expect-error": "error",
     "@typescript-eslint/promise-function-async": "error",
-    "@typescript-eslint/quotes": "off",
     "@typescript-eslint/require-array-sort-compare": "error",
     "@typescript-eslint/require-await": "off",
     "@typescript-eslint/restrict-plus-operands": "error",
@@ -132,9 +115,6 @@ export default {
     "no-return-await": "off",
     "@typescript-eslint/return-await": "error",
 
-    "@typescript-eslint/semi": "off",
-    "@typescript-eslint/space-before-function-paren": "off",
-
     "@typescript-eslint/strict-boolean-expressions": [
       "error",
       {
@@ -149,13 +129,13 @@ export default {
         allowRuleToRunWithoutStrictNullChecksIKnowWhatIAmDoing: false,
       },
     ],
-    "@typescript-eslint/type-annotation-spacing": "off",
     "@typescript-eslint/typedef": "off",
 
     "@typescript-eslint/adjacent-overload-signatures": "error",
     "@typescript-eslint/consistent-type-assertions": "error",
     "@typescript-eslint/consistent-type-exports": "off",
     "@typescript-eslint/no-array-constructor": "error",
+    "@typescript-eslint/no-array-delete": "error",
     "@typescript-eslint/no-inferrable-types": [
       "error",
       {
@@ -216,6 +196,7 @@ export default {
       },
     ],
     "@typescript-eslint/no-unnecessary-qualifier": "error",
+    "@typescript-eslint/no-unnecessary-template-expression": "error",
     "@typescript-eslint/no-useless-constructor": "error",
     "@typescript-eslint/no-useless-empty-export": "error",
     "@typescript-eslint/unified-signatures": [
@@ -224,12 +205,17 @@ export default {
         ignoreDifferentlyNamedParameters: true,
       },
     ],
+    "@typescript-eslint/use-unknown-in-catch-callback-variable": "error",
+
     "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
     // It reports `import React from "react";` as type-only, which is not.
     "@typescript-eslint/consistent-type-imports": "off",
     "@typescript-eslint/no-floating-promises": "error",
     "@typescript-eslint/prefer-as-const": "error",
+    "@typescript-eslint/prefer-destructuring": "off",
     "@typescript-eslint/prefer-enum-initializers": "error",
+    "@typescript-eslint/prefer-find": "error",
+
     "no-dupe-class-members": "off",
     "@typescript-eslint/no-dupe-class-members": "error",
 
@@ -247,10 +233,15 @@ export default {
     "@typescript-eslint/no-unsafe-enum-comparison": "error",
     "@typescript-eslint/no-unsafe-member-access": "off",
     "@typescript-eslint/no-unsafe-return": "off",
+    "@typescript-eslint/no-unsafe-unary-minus": "error",
     "@typescript-eslint/no-unsafe-assignment": "off",
     "@typescript-eslint/prefer-reduce-type-parameter": "error",
     "@typescript-eslint/no-shadow": "off",
     "@typescript-eslint/consistent-indexed-object-style": ["error", "record"],
+
+    "consistent-return": "off",
+    "@typescript-eslint/consistent-return": "error",
+
     "@typescript-eslint/no-confusing-void-expression": [
       "error",
       {
@@ -263,11 +254,11 @@ export default {
     "@typescript-eslint/no-unnecessary-type-constraint": "error",
     "@typescript-eslint/no-unsafe-argument": "off",
     "@typescript-eslint/non-nullable-type-assertion-style": "error",
-    "@typescript-eslint/object-curly-spacing": "off",
-    "@typescript-eslint/padding-line-between-statements": "off",
+
+    "no-throw-literal": "off",
+    "@typescript-eslint/only-throw-error": "error",
+
     "@typescript-eslint/sort-type-constituents": "off",
-    "@typescript-eslint/space-infix-ops": "off",
-    "@typescript-eslint/space-before-blocks": "off",
     "@typescript-eslint/no-duplicate-enum-values": "error",
     "@typescript-eslint/no-duplicate-type-constituents": "off",
     "@typescript-eslint/consistent-generic-constructors": "off",

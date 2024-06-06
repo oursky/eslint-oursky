@@ -16,6 +16,7 @@ export default {
   rules: {
     "react/boolean-prop-naming": "off",
     "react/button-has-type": "error",
+    "react/checked-requires-onchange-or-readonly": "error",
     "react/default-props-match-prop-types": "off",
     "react/destructuring-assignment": "off",
     "react/forbid-component-props": "off",
