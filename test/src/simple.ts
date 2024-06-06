@@ -41,3 +41,13 @@ export function thisFunctionIsHardToComprehend(a: number): boolean {
   }
   return condE;
 }
+
+// https://github.com/oursky/eslint-oursky/issues/43
+export function issue43(a: "A" | "B"): number {
+  switch (a) {
+    case "A":
+      return 1;
+    case "B":
+      return 2;
+  }
+}

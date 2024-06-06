@@ -33,8 +33,11 @@ export default {
     "@typescript-eslint/consistent-generic-constructors": "off",
     "@typescript-eslint/consistent-indexed-object-style": ["error", "record"],
 
+    // default-case and consistent-return could undermine the usefulness of
+    // @typescript-eslint/switch-exhaustiveness-check.
+    // https://github.com/oursky/eslint-oursky/issues/43
     "consistent-return": "off",
-    "@typescript-eslint/consistent-return": "error",
+    "@typescript-eslint/consistent-return": "off",
 
     "@typescript-eslint/consistent-type-assertions": "error",
     "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
