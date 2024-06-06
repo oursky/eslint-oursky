@@ -223,7 +223,6 @@ export default {
     // @typescript-eslint/switch-exhaustiveness-check.
     // https://github.com/oursky/eslint-oursky/issues/43
     "default-case": "off",
-    "consistent-return": "off",
     "@typescript-eslint/switch-exhaustiveness-check": "error",
 
     "@typescript-eslint/no-base-to-string": "error",
