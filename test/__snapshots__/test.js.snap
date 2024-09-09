@@ -19,6 +19,7 @@ src/simple.ts:12:5: 'b' is assigned a value but never used. Allowed unused vars 
 src/simple.ts:12:11: Unexpected number value in conditional. An explicit zero/NaN check is required. [Error/@typescript-eslint/strict-boolean-expressions]
 src/simple.ts:14:8: Function 'thisFunctionIsHardToComprehend' has a complexity of 14. Maximum allowed is 10. [Error/complexity]
 src/simple.ts:14:17: Refactor this function to reduce its Cognitive Complexity from 19 to the 10 allowed. [Error/sonarjs/cognitive-complexity]
+src/simple.ts:55:25: 'unused' is defined but never used. Allowed unused args must match /^_/u. [Error/@typescript-eslint/no-unused-vars]
 
-9 problems"
+10 problems"
 `;

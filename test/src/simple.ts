@@ -51,3 +51,7 @@ export function issue43(a: "A" | "B"): number {
       return 2;
   }
 }
+
+export function issue53(unused: number): number {
+  return 0;
+}
