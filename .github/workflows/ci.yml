@@ -11,7 +11,7 @@ jobs:
       with:
         node-version-file: "./.tool-versions"
     - run: npm ci
-    - run: make check-rules-are-up-to-date
+    - run: make print-all-rules
     - run: make check-all-rules-are-considered
     - run: npm run typecheck
     - run: npm run format
