@@ -225,7 +225,6 @@ export default {
       },
     ],
     "@typescript-eslint/return-await": "error",
-    "@typescript-eslint/sort-type-constituents": "off",
     "@typescript-eslint/strict-boolean-expressions": [
       "error",
       {

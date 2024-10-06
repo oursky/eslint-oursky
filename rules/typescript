@@ -109,7 +109,6 @@
 @typescript-eslint/restrict-plus-operands
 @typescript-eslint/restrict-template-expressions
 @typescript-eslint/return-await
-@typescript-eslint/sort-type-constituents
 @typescript-eslint/strict-boolean-expressions
 @typescript-eslint/switch-exhaustiveness-check
 @typescript-eslint/triple-slash-reference
