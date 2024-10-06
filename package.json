@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "build": "rollup --config",
-    "prepublishOnly": "npm run typecheck && npm run format && npm run test",
+    "prepublishOnly": "npm run format && npm run test",
     "test": "npm run build && cd test && npm ci && npm test",
     "format": "prettier --write --list-different 'src/**/*.{cjs,mjs,js,jsx,ts,tsx}'"
   },
