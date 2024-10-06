@@ -1,4 +1,3 @@
-import { fixupPluginRules } from "@eslint/compat";
 import sonarjs from "eslint-plugin-sonarjs";
 
 export default function ourskyConfig(oursky) {
@@ -6,7 +5,7 @@ export default function ourskyConfig(oursky) {
     name: "@oursky/oursky",
     plugins: {
       oursky,
-      sonarjs: fixupPluginRules(sonarjs),
+      sonarjs,
     },
     rules: {
       "sonarjs/cognitive-complexity": ["error", 10],
