@@ -34,6 +34,7 @@
 @typescript-eslint/no-dynamic-delete
 @typescript-eslint/no-empty-function
 @typescript-eslint/no-empty-interface
+@typescript-eslint/no-empty-object-type
 @typescript-eslint/no-explicit-any
 @typescript-eslint/no-extra-non-null-assertion
 @typescript-eslint/no-extraneous-class

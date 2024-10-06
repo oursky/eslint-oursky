@@ -55,3 +55,9 @@ export function issue43(a: "A" | "B"): number {
 export function issue53(unused: number): number {
   return 0;
 }
+
+export function emptyObjectType(): void {
+  const _bad: {} = {};
+}
+
+export interface ThisIsAllowed {}
