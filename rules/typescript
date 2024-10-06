@@ -3,7 +3,6 @@
 @typescript-eslint/await-thenable
 @typescript-eslint/ban-ts-comment
 @typescript-eslint/ban-tslint-comment
-@typescript-eslint/ban-types
 @typescript-eslint/class-literal-property-style
 @typescript-eslint/class-methods-use-this
 @typescript-eslint/consistent-generic-constructors
@@ -33,7 +32,6 @@
 @typescript-eslint/no-duplicate-type-constituents
 @typescript-eslint/no-dynamic-delete
 @typescript-eslint/no-empty-function
-@typescript-eslint/no-empty-interface
 @typescript-eslint/no-empty-object-type
 @typescript-eslint/no-explicit-any
 @typescript-eslint/no-extra-non-null-assertion
@@ -46,7 +44,6 @@
 @typescript-eslint/no-invalid-this
 @typescript-eslint/no-invalid-void-type
 @typescript-eslint/no-loop-func
-@typescript-eslint/no-loss-of-precision
 @typescript-eslint/no-magic-numbers
 @typescript-eslint/no-meaningless-void-operator
 @typescript-eslint/no-misused-new
@@ -60,6 +57,7 @@
 @typescript-eslint/no-redundant-type-constituents
 @typescript-eslint/no-require-imports
 @typescript-eslint/no-restricted-imports
+@typescript-eslint/no-restricted-types
 @typescript-eslint/no-shadow
 @typescript-eslint/no-this-alias
 @typescript-eslint/no-unnecessary-boolean-literal-compare
@@ -85,7 +83,6 @@
 @typescript-eslint/no-use-before-define
 @typescript-eslint/no-useless-constructor
 @typescript-eslint/no-useless-empty-export
-@typescript-eslint/no-var-requires
 @typescript-eslint/no-wrapper-object-types
 @typescript-eslint/non-nullable-type-assertion-style
 @typescript-eslint/only-throw-error

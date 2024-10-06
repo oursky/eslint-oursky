@@ -18,7 +18,6 @@ export default {
       },
     ],
     "@typescript-eslint/ban-tslint-comment": "error",
-    "@typescript-eslint/ban-types": "error",
     "@typescript-eslint/class-literal-property-style": "off",
 
     "class-methods-use-this": "off",
@@ -81,7 +80,6 @@ export default {
     "@typescript-eslint/no-duplicate-type-constituents": "off",
     "@typescript-eslint/no-dynamic-delete": "off",
     "@typescript-eslint/no-empty-function": "off",
-    "@typescript-eslint/no-empty-interface": "off",
     "@typescript-eslint/no-empty-object-type": [
       "error",
       {
@@ -115,9 +113,6 @@ export default {
     "no-loop-func": "off",
     "@typescript-eslint/no-loop-func": ["error"],
 
-    "no-loss-of-precision": "off",
-    "@typescript-eslint/no-loss-of-precision": "error",
-
     "@typescript-eslint/no-magic-numbers": "off",
     "@typescript-eslint/no-meaningless-void-operator": "error",
     "@typescript-eslint/no-misused-new": "error",
@@ -133,6 +128,7 @@ export default {
     "@typescript-eslint/no-redundant-type-constituents": "error",
     "@typescript-eslint/no-require-imports": "error",
     "@typescript-eslint/no-restricted-imports": "off",
+    "@typescript-eslint/no-restricted-types": "off",
     "@typescript-eslint/no-shadow": "off",
     "@typescript-eslint/no-this-alias": "error",
     "@typescript-eslint/no-unnecessary-boolean-literal-compare": "off",
@@ -193,7 +189,6 @@ export default {
 
     "@typescript-eslint/no-useless-constructor": "error",
     "@typescript-eslint/no-useless-empty-export": "error",
-    "@typescript-eslint/no-var-requires": "error",
     "@typescript-eslint/no-wrapper-object-types": "error",
     "@typescript-eslint/non-nullable-type-assertion-style": "error",
 
