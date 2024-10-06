@@ -104,7 +104,6 @@ no-nested-ternary
 no-new
 no-new-func
 no-new-native-nonconstructor
-no-new-symbol
 no-new-wrappers
 no-nonoctal-decimal-escape
 no-obj-calls
@@ -153,6 +152,7 @@ no-unused-labels
 no-unused-private-class-members
 no-unused-vars
 no-use-before-define
+no-useless-assignment
 no-useless-backreference
 no-useless-call
 no-useless-catch
