@@ -9,6 +9,7 @@ react/forbid-dom-props
 react/forbid-elements
 react/forbid-foreign-prop-types
 react/forbid-prop-types
+react/forward-ref-uses-ref
 react/function-component-definition
 react/hook-use-state
 react/iframe-missing-sandbox
@@ -43,6 +44,7 @@ react/jsx-no-useless-fragment
 react/jsx-one-expression-per-line
 react/jsx-pascal-case
 react/jsx-props-no-multi-spaces
+react/jsx-props-no-spread-multi
 react/jsx-props-no-spreading
 react/jsx-sort-props
 react/jsx-tag-spacing

@@ -5,8 +5,12 @@ exports[`react.tsx 1`] = `
 src/react.tsx:7:26: Use VFC and VoidFunctionComponent instead of FC and FunctionComponent. [Error/@oursky/react-vfc]
 src/react.tsx:11:26: Use VFC and VoidFunctionComponent instead of FC and FunctionComponent. [Error/@oursky/react-vfc]
 src/react.tsx:15:26: Use VFC and VoidFunctionComponent instead of FC and FunctionComponent. [Error/@oursky/react-vfc]
+src/react.tsx:19:8: Missing return type on function. [Error/@typescript-eslint/explicit-module-boundary-types]
+src/react.tsx:21:26: Spreading the same expression multiple times is forbidden [Error/react/jsx-props-no-spread-multi]
+src/react.tsx:24:38: forwardRef is used with this component but no ref parameter is set [Error/react/forward-ref-uses-ref]
+src/react.tsx:24:39: 'props' is defined but never used. Allowed unused args must match /^_/u. [Error/@typescript-eslint/no-unused-vars]
 
-4 problems"
+8 problems"
 `;
 
 exports[`simple.ts 1`] = `
