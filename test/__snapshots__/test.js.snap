@@ -36,6 +36,14 @@ src/simple.ts:60:15: The \`{}\` ("empty object") type allows any non-nullish val
 src/simple.ts:66:15: Property bar should be declared as a class property. [Error/@typescript-eslint/parameter-properties]
 src/simple.ts:67:5: This assignment is unnecessary since it is already assigned by a parameter property. [Error/@typescript-eslint/no-unnecessary-parameter-property-assignment]
 src/simple.ts:71:45: Type parameter A is used only once. [Error/@typescript-eslint/no-unnecessary-type-parameters]
+src/simple.ts:75:36: Don't use \`Function\` as a type. The \`Function\` type accepts any function-like value.
+It provides no type safety when calling the function, which can be a common source of bugs.
+It also accepts things like class declarations, which will throw at runtime as they will not be called with \`new\`.
+If you are expecting the function to accept certain arguments, you should explicitly define the function shape. [Error/@typescript-eslint/ban-types]
+src/simple.ts:75:36: The \`Function\` type accepts any function-like value.
+Prefer explicitly defining any function parameters and return type. [Error/@typescript-eslint/no-unsafe-function-type]
+src/simple.ts:77:35: Don't use \`Number\` as a type. Use number instead [Error/@typescript-eslint/ban-types]
+src/simple.ts:77:35: Prefer using the primitive \`number\` as a type name, rather than the upper-cased \`Number\`. [Error/@typescript-eslint/no-wrapper-object-types]
 
-15 problems"
+19 problems"
 `;

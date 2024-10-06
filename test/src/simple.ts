@@ -71,3 +71,7 @@ export class ParameterProperties {
 export function noUnnecessaryTypeParameters<A, B>(_a: A, b: B): B {
   return b;
 }
+
+export const noUnsafeFunctionType: Function = () => {};
+
+export const noWrapperObjectType: Number = 1;
