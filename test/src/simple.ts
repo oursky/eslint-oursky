@@ -87,3 +87,11 @@ export function deprecated(): void {}
 export function noDeprecated(): void {
   deprecated();
 }
+
+interface BrokenType {
+  brokenField: string;
+}
+
+export function useBrokenType(): void {
+  const _: BrokenType = { brokenField: "broken" };
+}

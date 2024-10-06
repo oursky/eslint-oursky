@@ -20,6 +20,17 @@ export default [
   {
     files: [ts],
     ...oursky.configs.typescript,
+    rules: {
+      ...oursky.configs.typescript.rules,
+      "@typescript-eslint/no-restricted-types": [
+        "error",
+        {
+          types: {
+            BrokenType: "BrokenType is broken. Use NonBrokenType instead",
+          },
+        },
+      ],
+    },
   },
   {
     files: [ts],
