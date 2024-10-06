@@ -1,16 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`react.tsx 1`] = `
-"src/react.tsx:3:26: Use VFC and VoidFunctionComponent instead of FC and FunctionComponent. [Error/@oursky/react-vfc]
-src/react.tsx:7:26: Use VFC and VoidFunctionComponent instead of FC and FunctionComponent. [Error/@oursky/react-vfc]
-src/react.tsx:11:26: Use VFC and VoidFunctionComponent instead of FC and FunctionComponent. [Error/@oursky/react-vfc]
-src/react.tsx:15:26: Use VFC and VoidFunctionComponent instead of FC and FunctionComponent. [Error/@oursky/react-vfc]
-src/react.tsx:19:8: Missing return type on function. [Error/@typescript-eslint/explicit-module-boundary-types]
+"src/react.tsx:19:8: Missing return type on function. [Error/@typescript-eslint/explicit-module-boundary-types]
 src/react.tsx:21:26: Spreading the same expression multiple times is forbidden [Error/react/jsx-props-no-spread-multi]
 src/react.tsx:24:38: forwardRef is used with this component but no ref parameter is set [Error/react/forward-ref-uses-ref]
 src/react.tsx:24:39: 'props' is defined but never used. Allowed unused args must match /^_/u. [Error/@typescript-eslint/no-unused-vars]
 
-8 problems"
+4 problems"
 `;
 
 exports[`simple.ts 1`] = `
@@ -24,11 +20,6 @@ src/simple.ts:12:11: Unexpected number value in conditional. An explicit zero/Na
 src/simple.ts:14:8: Function 'thisFunctionIsHardToComprehend' has a complexity of 14. Maximum allowed is 10. [Error/complexity]
 src/simple.ts:14:17: Refactor this function to reduce its Cognitive Complexity from 19 to the 10 allowed. [Error/sonarjs/cognitive-complexity]
 src/simple.ts:55:25: 'unused' is defined but never used. Allowed unused args must match /^_/u. [Error/@typescript-eslint/no-unused-vars]
-src/simple.ts:60:15: Don't use \`{}\` as a type. \`{}\` actually means "any non-nullish value".
-- If you want a type meaning "any object", you probably want \`object\` instead.
-- If you want a type meaning "any value", you probably want \`unknown\` instead.
-- If you want a type meaning "empty object", you probably want \`Record<string, never>\` instead.
-- If you really want a type meaning "any non-nullish value", you probably want \`NonNullable<unknown>\` instead. [Error/@typescript-eslint/ban-types]
 src/simple.ts:60:15: The \`{}\` ("empty object") type allows any non-nullish value, including literals like \`0\` and \`""\`.
 - If that's what you want, disable this lint rule with an inline comment or configure the 'allowObjectTypes' rule option.
 - If you want a type meaning "any object", you probably want \`object\` instead.
@@ -36,15 +27,10 @@ src/simple.ts:60:15: The \`{}\` ("empty object") type allows any non-nullish val
 src/simple.ts:66:15: Property bar should be declared as a class property. [Error/@typescript-eslint/parameter-properties]
 src/simple.ts:67:5: This assignment is unnecessary since it is already assigned by a parameter property. [Error/@typescript-eslint/no-unnecessary-parameter-property-assignment]
 src/simple.ts:71:45: Type parameter A is used only once. [Error/@typescript-eslint/no-unnecessary-type-parameters]
-src/simple.ts:75:36: Don't use \`Function\` as a type. The \`Function\` type accepts any function-like value.
-It provides no type safety when calling the function, which can be a common source of bugs.
-It also accepts things like class declarations, which will throw at runtime as they will not be called with \`new\`.
-If you are expecting the function to accept certain arguments, you should explicitly define the function shape. [Error/@typescript-eslint/ban-types]
 src/simple.ts:75:36: The \`Function\` type accepts any function-like value.
 Prefer explicitly defining any function parameters and return type. [Error/@typescript-eslint/no-unsafe-function-type]
 src/simple.ts:78:4: tsdoc-undefined-tag: The TSDoc tag "@foobar" is not defined in this configuration [Error/tsdoc/syntax]
-src/simple.ts:80:35: Don't use \`Number\` as a type. Use number instead [Error/@typescript-eslint/ban-types]
 src/simple.ts:80:35: Prefer using the primitive \`number\` as a type name, rather than the upper-cased \`Number\`. [Error/@typescript-eslint/no-wrapper-object-types]
 
-20 problems"
+17 problems"
 `;

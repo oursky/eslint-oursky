@@ -1,5 +1,18 @@
+import { fixupPluginRules } from "@eslint/compat";
+import reactnative from "eslint-plugin-react-native";
+
 export default {
-  plugins: ["react-native"],
+  name: "@oursky/react-native",
+  languageOptions: {
+    parserOptions: {
+      ecmaFeatures: {
+        jsx: true,
+      },
+    },
+  },
+  plugins: {
+    "react-native": fixupPluginRules(reactnative),
+  },
   rules: {
     "react-native/no-color-literals": "off",
     "react-native/no-inline-styles": "error",

@@ -1,4 +1,5 @@
 export default {
+  name: "@oursky/eslint",
   rules: {
     "accessor-pairs": "error",
     "array-callback-return": "error",

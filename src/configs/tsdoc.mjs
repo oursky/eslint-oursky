@@ -1,5 +1,11 @@
+import { fixupPluginRules } from "@eslint/compat";
+import tsdoc from "eslint-plugin-tsdoc";
+
 export default {
-  plugins: ["eslint-plugin-tsdoc"],
+  name: "@oursky/tsdoc",
+  plugins: {
+    tsdoc: fixupPluginRules(tsdoc),
+  },
   rules: {
     "tsdoc/syntax": "error",
   },

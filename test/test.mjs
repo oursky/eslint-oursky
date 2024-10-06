@@ -1,17 +1,16 @@
-const path = require("path");
-
-const { ESLint } = require("eslint");
+import { join, relative } from "path";
+import { cwd } from "node:process";
+import { ESLint } from "eslint";
 
 function runTest(filename) {
   test(filename, async () => {
     const cli = new ESLint();
 
-    const lintResults = await cli.lintFiles([path.join("src", filename)]);
+    const lintResults = await cli.lintFiles([join("src", filename)]);
     // Patch the path so that they are the same on any machine.
     for (const r of lintResults) {
       const absolute = r.filePath;
-      const relative = path.relative(process.cwd(), absolute);
-      r.filePath = relative;
+      r.filePath = relative(cwd(), absolute);
     }
 
     const formatter = await cli.loadFormatter("unix");

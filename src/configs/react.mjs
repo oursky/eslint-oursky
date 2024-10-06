@@ -1,5 +1,10 @@
+import react from "eslint-plugin-react";
+
 export default {
-  plugins: ["react"],
+  name: "@oursky/react",
+  plugins: {
+    react,
+  },
   settings: {
     react: {
       // <></> is available from 16.2

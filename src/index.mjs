@@ -5,15 +5,18 @@ import reactHooks from "./configs/reacthooks";
 import reactNative from "./configs/reactnative";
 import tsdoc from "./configs/tsdoc";
 import oursky from "./configs/oursky";
-import { rules } from "./rules";
 
-export const configs = {
-  eslint,
-  typescript,
-  react,
-  tsdoc,
-  oursky,
-  "react-hooks": reactHooks,
-  "react-native": reactNative,
+const plugin = {
+  configs: {
+    eslint,
+    typescript,
+    react,
+    tsdoc,
+    "react-hooks": reactHooks,
+    "react-native": reactNative,
+  },
 };
-export { rules };
+
+plugin.configs["oursky"] = oursky(plugin);
+
+export default plugin;

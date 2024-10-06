@@ -1,6 +1,9 @@
+import tseslint from "typescript-eslint";
+
 export default {
-  parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint"],
+  ...tseslint.configs.base,
+  // Override the name of tseslint.configs.base
+  name: "@oursky/typescript-eslint",
   rules: {
     // https://typescript-eslint.io/linting/troubleshooting/#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
     "no-undef": "off",

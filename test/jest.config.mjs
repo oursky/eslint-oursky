@@ -1,8 +1,8 @@
-module.exports = {
+export default {
   preset: "ts-jest",
-  testEnvironment: "jsdom",
+  testMatch: ["<rootDir>/test.mjs"],
   transform: {
-    "^.+\\.tsx?$": "ts-jest",
+    "^.+\\.m?tsx?$": "ts-jest",
   },
   transformIgnorePatterns: ["<rootDir>/node_modules/"],
 };
