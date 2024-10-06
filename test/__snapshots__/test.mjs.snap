@@ -26,11 +26,13 @@ src/simple.ts:60:15: The \`{}\` ("empty object") type allows any non-nullish val
 - If you want a type meaning "any value", you probably want \`unknown\` instead. [Error/@typescript-eslint/no-empty-object-type]
 src/simple.ts:66:15: Property bar should be declared as a class property. [Error/@typescript-eslint/parameter-properties]
 src/simple.ts:67:5: This assignment is unnecessary since it is already assigned by a parameter property. [Error/@typescript-eslint/no-unnecessary-parameter-property-assignment]
-src/simple.ts:71:45: Type parameter A is used only once. [Error/@typescript-eslint/no-unnecessary-type-parameters]
+src/simple.ts:71:45: Type parameter A is used only once in the function signature. [Error/@typescript-eslint/no-unnecessary-type-parameters]
 src/simple.ts:75:36: The \`Function\` type accepts any function-like value.
 Prefer explicitly defining any function parameters and return type. [Error/@typescript-eslint/no-unsafe-function-type]
 src/simple.ts:78:4: tsdoc-undefined-tag: The TSDoc tag "@foobar" is not defined in this configuration [Error/tsdoc/syntax]
 src/simple.ts:80:35: Prefer using the primitive \`number\` as a type name, rather than the upper-cased \`Number\`. [Error/@typescript-eslint/no-wrapper-object-types]
+src/simple.ts:83:4: tsdoc-missing-deprecation-message: The @deprecated block must include a deprecation message, e.g. describing the recommended alternative [Error/tsdoc/syntax]
+src/simple.ts:88:3: \`deprecated\` is deprecated. [Error/@typescript-eslint/no-deprecated]
 
-17 problems"
+19 problems"
 `;

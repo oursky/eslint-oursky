@@ -78,3 +78,12 @@ export const noUnsafeFunctionType: Function = () => {};
  * @foobar
  */
 export const noWrapperObjectType: Number = 1;
+
+/**
+ * @deprecated
+ */
+export function deprecated(): void {}
+
+export function noDeprecated(): void {
+  deprecated();
+}

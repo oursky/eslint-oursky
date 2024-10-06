@@ -27,6 +27,7 @@
 @typescript-eslint/no-base-to-string
 @typescript-eslint/no-confusing-non-null-assertion
 @typescript-eslint/no-confusing-void-expression
+@typescript-eslint/no-deprecated
 @typescript-eslint/no-dupe-class-members
 @typescript-eslint/no-duplicate-enum-values
 @typescript-eslint/no-duplicate-type-constituents

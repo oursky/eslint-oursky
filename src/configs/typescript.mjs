@@ -76,6 +76,7 @@ export default {
         ignoreVoidOperator: true,
       },
     ],
+    "@typescript-eslint/no-deprecated": "error",
 
     "no-dupe-class-members": "off",
     "@typescript-eslint/no-dupe-class-members": "error",
