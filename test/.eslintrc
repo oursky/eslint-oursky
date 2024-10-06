@@ -2,6 +2,7 @@
   "extends": [
     "plugin:@oursky/eslint",
     "plugin:@oursky/typescript",
+    "plugin:@oursky/tsdoc",
     "plugin:@oursky/react",
     "plugin:@oursky/react-hooks",
     "plugin:@oursky/react-native",

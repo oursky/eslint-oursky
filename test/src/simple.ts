@@ -74,4 +74,7 @@ export function noUnnecessaryTypeParameters<A, B>(_a: A, b: B): B {
 
 export const noUnsafeFunctionType: Function = () => {};
 
+/**
+ * @foobar
+ */
 export const noWrapperObjectType: Number = 1;
