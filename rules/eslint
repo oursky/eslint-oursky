@@ -26,7 +26,6 @@ id-denylist
 id-length
 id-match
 init-declarations
-line-comment-position
 logical-assignment-operators
 max-classes-per-file
 max-depth
@@ -35,7 +34,6 @@ max-lines-per-function
 max-nested-callbacks
 max-params
 max-statements
-multiline-comment-style
 new-cap
 no-alert
 no-array-constructor
