@@ -33,6 +33,9 @@ src/simple.ts:60:15: The \`{}\` ("empty object") type allows any non-nullish val
 - If that's what you want, disable this lint rule with an inline comment or configure the 'allowObjectTypes' rule option.
 - If you want a type meaning "any object", you probably want \`object\` instead.
 - If you want a type meaning "any value", you probably want \`unknown\` instead. [Error/@typescript-eslint/no-empty-object-type]
+src/simple.ts:66:15: Property bar should be declared as a class property. [Error/@typescript-eslint/parameter-properties]
+src/simple.ts:67:5: This assignment is unnecessary since it is already assigned by a parameter property. [Error/@typescript-eslint/no-unnecessary-parameter-property-assignment]
+src/simple.ts:71:45: Type parameter A is used only once. [Error/@typescript-eslint/no-unnecessary-type-parameters]
 
-12 problems"
+15 problems"
 `;

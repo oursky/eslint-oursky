@@ -61,3 +61,13 @@ export function emptyObjectType(): void {
 }
 
 export interface ThisIsAllowed {}
+
+export class ParameterProperties {
+  constructor(public bar: string) {
+    this.bar = bar;
+  }
+}
+
+export function noUnnecessaryTypeParameters<A, B>(_a: A, b: B): B {
+  return b;
+}

@@ -64,11 +64,13 @@
 @typescript-eslint/no-this-alias
 @typescript-eslint/no-unnecessary-boolean-literal-compare
 @typescript-eslint/no-unnecessary-condition
+@typescript-eslint/no-unnecessary-parameter-property-assignment
 @typescript-eslint/no-unnecessary-qualifier
 @typescript-eslint/no-unnecessary-template-expression
 @typescript-eslint/no-unnecessary-type-arguments
 @typescript-eslint/no-unnecessary-type-assertion
 @typescript-eslint/no-unnecessary-type-constraint
+@typescript-eslint/no-unnecessary-type-parameters
 @typescript-eslint/no-unsafe-argument
 @typescript-eslint/no-unsafe-assignment
 @typescript-eslint/no-unsafe-call
