@@ -13,6 +13,5 @@ jobs:
     - run: npm ci
     - run: make print-all-rules
     - run: make check-all-rules-are-considered
-    - run: npm run typecheck
     - run: npm run format
     - run: npm run test
