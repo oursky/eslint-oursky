@@ -7,6 +7,9 @@ export default function ourskyConfig(oursky) {
       oursky,
       sonarjs,
     },
+    linterOptions: {
+      reportUnusedInlineConfigs: "error",
+    },
     rules: {
       "sonarjs/cognitive-complexity": ["error", 10],
     },

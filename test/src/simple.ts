@@ -95,3 +95,5 @@ interface BrokenType {
 export function useBrokenType(): void {
   const _: BrokenType = { brokenField: "broken" };
 }
+
+// eslint-disable-next-line no-console

@@ -34,6 +34,7 @@ src/simple.ts:80:35: Prefer using the primitive \`number\` as a type name, rathe
 src/simple.ts:83:4: tsdoc-missing-deprecation-message: The @deprecated block must include a deprecation message, e.g. describing the recommended alternative [Error/tsdoc/syntax]
 src/simple.ts:88:3: \`deprecated\` is deprecated. [Error/@typescript-eslint/no-deprecated]
 src/simple.ts:96:12: Don't use \`BrokenType\` as a type. BrokenType is broken. Use NonBrokenType instead [Error/@typescript-eslint/no-restricted-types]
+src/simple.ts:99:1: Unused eslint-disable directive (no problems were reported from 'no-console'). [Warning]
 
-20 problems"
+21 problems"
 `;

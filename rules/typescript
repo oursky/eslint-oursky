@@ -49,6 +49,7 @@
 @typescript-eslint/no-meaningless-void-operator
 @typescript-eslint/no-misused-new
 @typescript-eslint/no-misused-promises
+@typescript-eslint/no-misused-spread
 @typescript-eslint/no-mixed-enums
 @typescript-eslint/no-namespace
 @typescript-eslint/no-non-null-asserted-nullish-coalescing
@@ -78,6 +79,7 @@
 @typescript-eslint/no-unsafe-function-type
 @typescript-eslint/no-unsafe-member-access
 @typescript-eslint/no-unsafe-return
+@typescript-eslint/no-unsafe-type-assertion
 @typescript-eslint/no-unsafe-unary-minus
 @typescript-eslint/no-unused-expressions
 @typescript-eslint/no-unused-vars
@@ -107,6 +109,7 @@
 @typescript-eslint/prefer-return-this-type
 @typescript-eslint/prefer-string-starts-ends-with
 @typescript-eslint/promise-function-async
+@typescript-eslint/related-getter-setter-pairs
 @typescript-eslint/require-array-sort-compare
 @typescript-eslint/require-await
 @typescript-eslint/restrict-plus-operands

@@ -121,6 +121,7 @@ export default {
     "@typescript-eslint/no-meaningless-void-operator": "error",
     "@typescript-eslint/no-misused-new": "error",
     "@typescript-eslint/no-misused-promises": "error",
+    "@typescript-eslint/no-misused-spread": "error",
     "@typescript-eslint/no-mixed-enums": "error",
     "@typescript-eslint/no-namespace": "error",
     "@typescript-eslint/no-non-null-asserted-nullish-coalescing": "error",
@@ -157,6 +158,7 @@ export default {
     "@typescript-eslint/no-unsafe-function-type": "error",
     "@typescript-eslint/no-unsafe-member-access": "off",
     "@typescript-eslint/no-unsafe-return": "off",
+    "@typescript-eslint/no-unsafe-type-assertion": "error",
     "@typescript-eslint/no-unsafe-unary-minus": "error",
 
     "no-unused-expressions": "off",
@@ -221,6 +223,7 @@ export default {
     "@typescript-eslint/prefer-return-this-type": "error",
     "@typescript-eslint/prefer-string-starts-ends-with": "off",
     "@typescript-eslint/promise-function-async": "error",
+    "@typescript-eslint/related-getter-setter-pairs": "error",
     "@typescript-eslint/require-array-sort-compare": "error",
     "@typescript-eslint/require-await": "off",
     "@typescript-eslint/restrict-plus-operands": "error",
