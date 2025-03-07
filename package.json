@@ -1,6 +1,6 @@
 {
   "name": "@oursky/eslint-plugin",
-  "version": "15.0.1",
+  "version": "16.0.0",
   "main": "dist/index.cjs",
   "repository": "git@github.com:oursky/eslint-oursky.git",
   "author": "<louischan@oursky.com>",
