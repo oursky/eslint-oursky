@@ -133,6 +133,7 @@ no-template-curly-in-string
 no-ternary
 no-this-before-super
 no-throw-literal
+no-unassigned-vars
 no-undef
 no-undef-init
 no-undefined

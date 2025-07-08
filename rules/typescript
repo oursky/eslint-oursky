@@ -70,6 +70,7 @@
 @typescript-eslint/no-unnecessary-type-arguments
 @typescript-eslint/no-unnecessary-type-assertion
 @typescript-eslint/no-unnecessary-type-constraint
+@typescript-eslint/no-unnecessary-type-conversion
 @typescript-eslint/no-unnecessary-type-parameters
 @typescript-eslint/no-unsafe-argument
 @typescript-eslint/no-unsafe-assignment
@@ -118,7 +119,6 @@
 @typescript-eslint/strict-boolean-expressions
 @typescript-eslint/switch-exhaustiveness-check
 @typescript-eslint/triple-slash-reference
-@typescript-eslint/typedef
 @typescript-eslint/unbound-method
 @typescript-eslint/unified-signatures
 @typescript-eslint/use-unknown-in-catch-callback-variable

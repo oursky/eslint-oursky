@@ -258,7 +258,6 @@ export default {
     "default-case": "off",
     "@typescript-eslint/switch-exhaustiveness-check": "error",
     "@typescript-eslint/triple-slash-reference": "error",
-    "@typescript-eslint/typedef": "off",
     "@typescript-eslint/unbound-method": [
       "error",
       {
