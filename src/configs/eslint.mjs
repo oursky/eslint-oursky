@@ -128,6 +128,7 @@ export default {
     "no-sparse-arrays": "error",
     "no-ternary": "off",
     "no-this-before-super": "error",
+    "no-unassigned-vars": "error",
     "no-undef": "error",
     "no-undefined": "off",
     "no-underscore-dangle": "off",
