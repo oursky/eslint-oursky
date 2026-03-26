@@ -226,8 +226,11 @@ export default {
     "prefer-spread": "error",
     radix: "error",
     "require-atomic-updates": "error",
-    "preserve-caught-error": ["error", {
-      "requireCatchParameter": true
-    }],
+    "preserve-caught-error": [
+      "error",
+      {
+        requireCatchParameter: true,
+      },
+    ],
   },
 };
