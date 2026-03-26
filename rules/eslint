@@ -181,6 +181,7 @@ prefer-regex-literals
 prefer-rest-params
 prefer-spread
 prefer-template
+preserve-caught-error
 radix
 require-atomic-updates
 require-await

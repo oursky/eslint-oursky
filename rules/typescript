@@ -83,9 +83,11 @@
 @typescript-eslint/no-unsafe-type-assertion
 @typescript-eslint/no-unsafe-unary-minus
 @typescript-eslint/no-unused-expressions
+@typescript-eslint/no-unused-private-class-members
 @typescript-eslint/no-unused-vars
 @typescript-eslint/no-use-before-define
 @typescript-eslint/no-useless-constructor
+@typescript-eslint/no-useless-default-assignment
 @typescript-eslint/no-useless-empty-export
 @typescript-eslint/no-wrapper-object-types
 @typescript-eslint/non-nullable-type-assertion-style
@@ -117,6 +119,7 @@
 @typescript-eslint/restrict-template-expressions
 @typescript-eslint/return-await
 @typescript-eslint/strict-boolean-expressions
+@typescript-eslint/strict-void-return
 @typescript-eslint/switch-exhaustiveness-check
 @typescript-eslint/triple-slash-reference
 @typescript-eslint/unbound-method

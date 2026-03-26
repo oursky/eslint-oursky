@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`react.tsx 1`] = `
 "src/react.tsx:19:8: Missing return type on function. [Error/@typescript-eslint/explicit-module-boundary-types]

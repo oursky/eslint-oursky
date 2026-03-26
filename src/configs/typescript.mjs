@@ -272,5 +272,8 @@ export default {
       },
     ],
     "@typescript-eslint/use-unknown-in-catch-callback-variable": "error",
+    "@typescript-eslint/no-unused-private-class-members": "error",
+    "@typescript-eslint/no-useless-default-assignment": "error",
+    "@typescript-eslint/strict-void-return": "error",
   },
 };
