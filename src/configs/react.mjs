@@ -1,9 +1,10 @@
+import { fixupPluginRules } from "@eslint/compat";
 import react from "eslint-plugin-react";
 
 export default {
   name: "@oursky/react",
   plugins: {
-    react,
+    react: fixupPluginRules(react),
   },
   settings: {
     react: {

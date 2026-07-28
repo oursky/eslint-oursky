@@ -9,6 +9,15 @@ src/react.tsx:24:39: 'props' is defined but never used. Allowed unused args must
 4 problems"
 `;
 
+exports[`reactnative.tsx 1`] = `
+"src/reactnative.tsx:11:3: Unused style detected: styles.unused [Error/react-native/no-unused-styles]
+src/reactnative.tsx:24:8: Missing return type on function. [Error/@typescript-eslint/explicit-module-boundary-types]
+src/reactnative.tsx:26:18: Inline style: { padding: 8 } [Error/react-native/no-inline-styles]
+src/reactnative.tsx:28:13: Single element style arrays are not necessary and cause unnecessary re-renders [Error/react-native/no-single-element-style-arrays]
+
+4 problems"
+`;
+
 exports[`simple.ts 1`] = `
 "src/simple.ts:1:1: Unexpected var, use let or const instead. [Error/no-var]
 src/simple.ts:1:8: Expected a \`const\` assertion instead of a literal type annotation. [Error/@typescript-eslint/prefer-as-const]

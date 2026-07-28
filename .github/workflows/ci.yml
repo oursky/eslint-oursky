@@ -11,11 +11,10 @@ jobs:
       with:
         node-version-file: "./.tool-versions"
     # We need to add --legacy-peer-deps because
-    # eslint-plugin-tsdoc
+    # eslint-plugin-react
     # eslint-plugin-react-native
-    # eslint-plugin-react-hooks
-    # They do not officially support eslint 9
-    # We make them compatible with eslint 9 with @eslint/compat
+    # They do not officially support eslint 10
+    # We make them compatible with eslint 10 with @eslint/compat
     - run: npm ci --legacy-peer-deps
     - run: make print-all-rules
     - run: make check-all-rules-are-considered
