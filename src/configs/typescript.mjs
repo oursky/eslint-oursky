@@ -114,9 +114,6 @@ export default {
 
     "@typescript-eslint/no-invalid-void-type": "error",
 
-    "no-loop-func": "off",
-    "@typescript-eslint/no-loop-func": ["error"],
-
     "@typescript-eslint/no-magic-numbers": "off",
     "@typescript-eslint/no-meaningless-void-operator": "error",
     "@typescript-eslint/no-misused-new": "error",
@@ -132,7 +129,6 @@ export default {
     "@typescript-eslint/no-redeclare": "error",
     "@typescript-eslint/no-redundant-type-constituents": "error",
     "@typescript-eslint/no-require-imports": "error",
-    "@typescript-eslint/no-restricted-imports": "off",
     "@typescript-eslint/no-restricted-types": "off",
     "@typescript-eslint/no-shadow": "off",
     "@typescript-eslint/no-this-alias": "error",

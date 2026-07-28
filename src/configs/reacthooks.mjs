@@ -16,7 +16,6 @@ export default {
   rules: {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
-    "react-hooks/component-hook-factories": "error",
     "react-hooks/config": "error",
     "react-hooks/error-boundaries": "error",
     "react-hooks/gating": "error",

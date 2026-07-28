@@ -44,7 +44,6 @@
 @typescript-eslint/no-inferrable-types
 @typescript-eslint/no-invalid-this
 @typescript-eslint/no-invalid-void-type
-@typescript-eslint/no-loop-func
 @typescript-eslint/no-magic-numbers
 @typescript-eslint/no-meaningless-void-operator
 @typescript-eslint/no-misused-new
@@ -58,7 +57,6 @@
 @typescript-eslint/no-redeclare
 @typescript-eslint/no-redundant-type-constituents
 @typescript-eslint/no-require-imports
-@typescript-eslint/no-restricted-imports
 @typescript-eslint/no-restricted-types
 @typescript-eslint/no-shadow
 @typescript-eslint/no-this-alias

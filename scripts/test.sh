@@ -2,10 +2,10 @@
 
 set -ex
 
-npm ci
+npm ci --legacy-peer-deps
 npm run build
 cd test
-npm i
+npm i --legacy-peer-deps
 
 if [ "$1" != "--ignore-changes" ]; then
 	test -z "$(git status --porcelain)"

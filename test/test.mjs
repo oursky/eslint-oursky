@@ -29,3 +29,4 @@ function runTest(filename) {
 
 runTest("simple.ts");
 runTest("react.tsx");
+runTest("reactnative.tsx");
