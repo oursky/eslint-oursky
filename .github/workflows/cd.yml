@@ -6,7 +6,11 @@ on:
 
 jobs:
   publish:
-    runs-on: [self-hosted, linux, x64, v1]
+    # npm trusted publishing does not support self-hosted runners.
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     steps:
     - uses: actions/checkout@v7
     - uses: actions/setup-node@v7
@@ -24,5 +28,3 @@ jobs:
     - run: npm ci
     # prepublishOnly runs format and test before publishing.
     - run: npm publish --access public
-      env:
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
