@@ -32,5 +32,13 @@
   },
   "peerDependencies": {
     "eslint": "^9.39.4 || ^10.8.0"
+  },
+  "overrides": {
+    "eslint-plugin-react": {
+      "eslint": "$eslint"
+    },
+    "eslint-plugin-react-native": {
+      "eslint": "$eslint"
+    }
   }
 }

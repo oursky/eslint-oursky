@@ -8,11 +8,20 @@
 
 ## Installation
 
-This plugin supports eslint 9 only.
+This plugin supports eslint 9 and eslint 10.
 
 ```sh
-npm install --save --save-dev eslint@9.x @oursky/eslint-plugin
+# eslint 10
+npm install --save-dev eslint@10.x @oursky/eslint-plugin
+
+# eslint 9
+npm install --save-dev eslint@9.x @oursky/eslint-plugin
 ```
+
+With eslint 10, npm prints `npm warn ERESOLVE overriding peer dependency`.
+This is expected and safe to ignore.
+`eslint-plugin-react` and `eslint-plugin-react-native` do not declare eslint 10 in their peer dependencies yet,
+and this plugin wraps them with `@eslint/compat` so they work with eslint 10.
 
 ## How to use?
 

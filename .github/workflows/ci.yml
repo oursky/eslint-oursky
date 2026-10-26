@@ -10,12 +10,11 @@ jobs:
     - uses: actions/setup-node@v7
       with:
         node-version-file: "./.tool-versions"
-    # We need to add --legacy-peer-deps because
-    # eslint-plugin-react
-    # eslint-plugin-react-native
-    # They do not officially support eslint 10
-    # We make them compatible with eslint 10 with @eslint/compat
-    - run: npm ci --legacy-peer-deps
+    # eslint-plugin-react and eslint-plugin-react-native
+    # do not officially support eslint 10.
+    # We make them compatible with eslint 10 with @eslint/compat,
+    # and relax their eslint peer dependency with "overrides" in package.json.
+    - run: npm ci
     - run: make print-all-rules
     - run: make check-all-rules-are-considered
     - run: npm run format
